@@ -2,6 +2,11 @@
 
 var selectionSort = SelectionSort.Sort(array);
 
-Console.WriteLine("Selection sort");
-foreach (var res in selectionSort)
+//Console.WriteLine("Selection sort");
+//foreach (var res in selectionSort)
+//    Console.Write($"{res} ");
+
+Console.WriteLine("DFS search");
+var searched = Dfs.SearchWithSample("A", "G");
+foreach (var res in searched)
     Console.Write($"{res} ");
