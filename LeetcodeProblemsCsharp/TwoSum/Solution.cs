@@ -25,4 +25,13 @@
 
         found: return indices.ToArray();
     }
+
+    /*
+     * Improved version
+     * Pseudo code
+     * - Figure out the multiplicatives of the target
+     * - Sort the nums array
+     * - Take the multiplicatives and search for them in the sorted array and get their indices
+     *  Since you know the order, you can perform a binary search and find the values of the multiplicatives
+     */
 }

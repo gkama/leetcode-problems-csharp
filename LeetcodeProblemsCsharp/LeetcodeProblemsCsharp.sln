@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{9CCBC16E-11B7-4871-B353-8B243928ABFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.csproj", "{DBC131DE-FEEC-4CC4-BD49-92455E738BDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9CCBC16E-11B7-4871-B353-8B243928ABFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CCBC16E-11B7-4871-B353-8B243928ABFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CCBC16E-11B7-4871-B353-8B243928ABFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC131DE-FEEC-4CC4-BD49-92455E738BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC131DE-FEEC-4CC4-BD49-92455E738BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC131DE-FEEC-4CC4-BD49-92455E738BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC131DE-FEEC-4CC4-BD49-92455E738BDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
