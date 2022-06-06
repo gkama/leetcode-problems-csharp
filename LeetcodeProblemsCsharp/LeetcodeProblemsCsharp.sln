@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RomanToInteger", "RomanToIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString", "ReverseString\ReverseString.csproj", "{9E4193B8-2091-4F85-945B-C0D9E1F8209A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{9B6733A0-4E02-4AF9-829E-03F547DC65EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Algorithms.csproj", "{9B6733A0-4E02-4AF9-829E-03F547DC65EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{AD1A2C40-EECE-4A06-B353-3E6FD705E49F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{AD1A2C40-EECE-4A06-B353-3E6FD705E49F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{9CCBC16E-11B7-4871-B353-8B243928ABFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AD1A2C40-EECE-4A06-B353-3E6FD705E49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1A2C40-EECE-4A06-B353-3E6FD705E49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD1A2C40-EECE-4A06-B353-3E6FD705E49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCBC16E-11B7-4871-B353-8B243928ABFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCBC16E-11B7-4871-B353-8B243928ABFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCBC16E-11B7-4871-B353-8B243928ABFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCBC16E-11B7-4871-B353-8B243928ABFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
