@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Al
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{AD1A2C40-EECE-4A06-B353-3E6FD705E49F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{9CCBC16E-11B7-4871-B353-8B243928ABFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{9CCBC16E-11B7-4871-B353-8B243928ABFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.csproj", "{DBC131DE-FEEC-4CC4-BD49-92455E738BDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddTwoNumbers", "AddTwoNumbers\AddTwoNumbers.csproj", "{DBC131DE-FEEC-4CC4-BD49-92455E738BDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{F2A07613-0409-43C6-A623-BEAF66B8D539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringWithoutRepeatingCharacters", "LongestSubstringWithoutRepeatingCharacters\LongestSubstringWithoutRepeatingCharacters.csproj", "{F2A07613-0409-43C6-A623-BEAF66B8D539}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{4254E6E6-0863-4449-A848-BFC6009386A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{4254E6E6-0863-4449-A848-BFC6009386A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{4254E6E6-0863-4449-A848-BFC6009386A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4254E6E6-0863-4449-A848-BFC6009386A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4254E6E6-0863-4449-A848-BFC6009386A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
