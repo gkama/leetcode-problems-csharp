@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestSubstringWithoutRepe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPalindromicSubstring", "LongestPalindromicSubstring\LongestPalindromicSubstring.csproj", "{4254E6E6-0863-4449-A848-BFC6009386A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeNumber", "PalindromeNumber\PalindromeNumber.csproj", "{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonPrefix", "LongestCommonPrefix\LongestCommonPrefix.csproj", "{A187F431-1BE8-4941-B6E5-A6CE1051837D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD9BCCFD-0A20-441A-A55C-F6CF3EF23801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A187F431-1BE8-4941-B6E5-A6CE1051837D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A187F431-1BE8-4941-B6E5-A6CE1051837D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A187F431-1BE8-4941-B6E5-A6CE1051837D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A187F431-1BE8-4941-B6E5-A6CE1051837D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
