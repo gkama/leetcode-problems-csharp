@@ -1,3 +1,8 @@
 ﻿using DataStructures;
 
-TestingLinkedList.ExampleOne();
+var maxHeap = new MaxHeap();
+
+if (maxHeap.IsValid())
+{
+    maxHeap.Print();
+}
