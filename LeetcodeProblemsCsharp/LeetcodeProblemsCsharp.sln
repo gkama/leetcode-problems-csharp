@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "Contai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumSubarray", "MaximumSubarray\MaximumSubarray.csproj", "{8B901E31-1A77-4280-9332-507741EC3155}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsertPosition", "SearchInsertPosition\SearchInsertPosition.csproj", "{BD6FD168-1E9C-4F04-9B23-D5A01805C451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{8B901E31-1A77-4280-9332-507741EC3155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B901E31-1A77-4280-9332-507741EC3155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B901E31-1A77-4280-9332-507741EC3155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6FD168-1E9C-4F04-9B23-D5A01805C451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6FD168-1E9C-4F04-9B23-D5A01805C451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6FD168-1E9C-4F04-9B23-D5A01805C451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6FD168-1E9C-4F04-9B23-D5A01805C451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
