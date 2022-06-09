@@ -29,15 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTwoSortedLists", "Merg
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedArray", "RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.csproj", "{7A997E54-F5AB-4C6D-9D35-F9831911B686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElement", "RemoveElement\RemoveElement.csproj", "{085BD93B-E3A7-4374-9413-67024E296A78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElement", "RemoveElement\RemoveElement.csproj", "{085BD93B-E3A7-4374-9413-67024E296A78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementStrStr", "ImplementStrStr\ImplementStrStr.csproj", "{C03C2EB6-53B6-4AE7-A7D9-F666370BAAC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementStrStr", "ImplementStrStr\ImplementStrStr.csproj", "{C03C2EB6-53B6-4AE7-A7D9-F666370BAAC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "ContainsDuplicate\ContainsDuplicate.csproj", "{FF19909C-60FE-4936-9E71-3E5CA6D98BE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainsDuplicate", "ContainsDuplicate\ContainsDuplicate.csproj", "{FF19909C-60FE-4936-9E71-3E5CA6D98BE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumSubarray", "MaximumSubarray\MaximumSubarray.csproj", "{8B901E31-1A77-4280-9332-507741EC3155}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximumSubarray", "MaximumSubarray\MaximumSubarray.csproj", "{8B901E31-1A77-4280-9332-507741EC3155}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchInsertPosition", "SearchInsertPosition\SearchInsertPosition.csproj", "{BD6FD168-1E9C-4F04-9B23-D5A01805C451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchInsertPosition", "SearchInsertPosition\SearchInsertPosition.csproj", "{BD6FD168-1E9C-4F04-9B23-D5A01805C451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfLastWord", "LengthOfLastWord\LengthOfLastWord.csproj", "{EBFA89D0-29CE-4826-B3E4-B63ADAF24420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{BD6FD168-1E9C-4F04-9B23-D5A01805C451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD6FD168-1E9C-4F04-9B23-D5A01805C451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD6FD168-1E9C-4F04-9B23-D5A01805C451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFA89D0-29CE-4826-B3E4-B63ADAF24420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFA89D0-29CE-4826-B3E4-B63ADAF24420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFA89D0-29CE-4826-B3E4-B63ADAF24420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFA89D0-29CE-4826-B3E4-B63ADAF24420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
