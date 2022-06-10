@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusOne", "PlusOne\PlusOne.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddBinary", "AddBinary\AddBinary.csproj", "{1B229342-772F-425A-AED2-9D1024A94EB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllOoneDataStructure", "AllOoneDataStructure\AllOoneDataStructure.csproj", "{27D84E4A-879D-4012-A0AA-D2E5B9A2BF5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{1B229342-772F-425A-AED2-9D1024A94EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B229342-772F-425A-AED2-9D1024A94EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B229342-772F-425A-AED2-9D1024A94EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D84E4A-879D-4012-A0AA-D2E5B9A2BF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D84E4A-879D-4012-A0AA-D2E5B9A2BF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D84E4A-879D-4012-A0AA-D2E5B9A2BF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D84E4A-879D-4012-A0AA-D2E5B9A2BF5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,13 @@
+﻿AllOne allOne = new AllOne();
+allOne.Inc("a");
+allOne.Inc("b");
+allOne.Inc("c");
+allOne.Inc("d");
+allOne.Inc("a");
+allOne.Inc("b");
+allOne.Inc("c");
+allOne.Inc("d");
+allOne.Inc("c");
+allOne.Inc("d");
+allOne.Inc("d");
+allOne.Inc("a");
