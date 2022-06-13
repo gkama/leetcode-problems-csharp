@@ -43,13 +43,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LengthOfLastWord", "LengthO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZigzagConversion", "ZigzagConversion\ZigzagConversion.csproj", "{55AE18C8-BF04-49C6-B1DD-C8585B8DD65D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusOne", "PlusOne\PlusOne.csproj", "{9B122657-0122-49E1-BD40-E402535715EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusOne", "PlusOne\PlusOne.csproj", "{9B122657-0122-49E1-BD40-E402535715EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddBinary", "AddBinary\AddBinary.csproj", "{1B229342-772F-425A-AED2-9D1024A94EB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddBinary", "AddBinary\AddBinary.csproj", "{1B229342-772F-425A-AED2-9D1024A94EB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllOoneDataStructure", "AllOoneDataStructure\AllOoneDataStructure.csproj", "{27D84E4A-879D-4012-A0AA-D2E5B9A2BF5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllOoneDataStructure", "AllOoneDataStructure\AllOoneDataStructure.csproj", "{27D84E4A-879D-4012-A0AA-D2E5B9A2BF5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqrtX", "SqrtX\SqrtX.csproj", "{03EDA0E2-9BA2-4BD8-B314-468B33567790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqrtX", "SqrtX\SqrtX.csproj", "{03EDA0E2-9BA2-4BD8-B314-468B33567790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{12636E8F-C53E-4656-AB90-2BEEED16439E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{03EDA0E2-9BA2-4BD8-B314-468B33567790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03EDA0E2-9BA2-4BD8-B314-468B33567790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03EDA0E2-9BA2-4BD8-B314-468B33567790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12636E8F-C53E-4656-AB90-2BEEED16439E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12636E8F-C53E-4656-AB90-2BEEED16439E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12636E8F-C53E-4656-AB90-2BEEED16439E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12636E8F-C53E-4656-AB90-2BEEED16439E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
