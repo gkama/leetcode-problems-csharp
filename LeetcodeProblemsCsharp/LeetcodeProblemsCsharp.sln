@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triang
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EggDropWithTwoEggsAndNFloors", "EggDropWithTwoEggsAndNFloors\EggDropWithTwoEggsAndNFloors.csproj", "{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "TextEditor\TextEditor.csproj", "{169769D8-FFA5-4490-B02E-387100BBAA21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169769D8-FFA5-4490-B02E-387100BBAA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169769D8-FFA5-4490-B02E-387100BBAA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169769D8-FFA5-4490-B02E-387100BBAA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169769D8-FFA5-4490-B02E-387100BBAA21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
