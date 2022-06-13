@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqrtX", "SqrtX\SqrtX.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triangle", "Triangle\Triangle.csproj", "{12636E8F-C53E-4656-AB90-2BEEED16439E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EggDropWithTwoEggsAndNFloors", "EggDropWithTwoEggsAndNFloors\EggDropWithTwoEggsAndNFloors.csproj", "{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{12636E8F-C53E-4656-AB90-2BEEED16439E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12636E8F-C53E-4656-AB90-2BEEED16439E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12636E8F-C53E-4656-AB90-2BEEED16439E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E61D430-E2E0-4C10-8E97-CBDD6D315F8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
