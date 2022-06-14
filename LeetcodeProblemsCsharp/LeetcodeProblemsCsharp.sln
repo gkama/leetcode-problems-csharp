@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectionOfTwoArraysTwo"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeToBuyAndSellStock", "BestTimeToBuyAndSellStock\BestTimeToBuyAndSellStock.csproj", "{D7818C92-1306-42AE-A1D6-D316B4C4BB87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReshapeTheMatrix", "ReshapeTheMatrix\ReshapeTheMatrix.csproj", "{FE4FCC06-DB20-44D9-BE5F-77A785D2AF2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{D7818C92-1306-42AE-A1D6-D316B4C4BB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7818C92-1306-42AE-A1D6-D316B4C4BB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7818C92-1306-42AE-A1D6-D316B4C4BB87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4FCC06-DB20-44D9-BE5F-77A785D2AF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4FCC06-DB20-44D9-BE5F-77A785D2AF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4FCC06-DB20-44D9-BE5F-77A785D2AF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4FCC06-DB20-44D9-BE5F-77A785D2AF2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

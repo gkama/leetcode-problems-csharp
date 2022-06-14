@@ -5,6 +5,8 @@
         public abstract bool IsValid();
         public abstract void Initialize();
         public abstract void Print();
+        public abstract void PrintBFS();
+        public abstract void PrintDFS();
     }
 
     public class Node<T>

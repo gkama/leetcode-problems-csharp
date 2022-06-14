@@ -4,5 +4,7 @@ var maxHeap = new MaxHeap();
 
 if (maxHeap.IsValid())
 {
-    maxHeap.Print();
+    maxHeap.PrintDFS();
+    Console.WriteLine("----");
+    maxHeap.PrintBFS();
 }

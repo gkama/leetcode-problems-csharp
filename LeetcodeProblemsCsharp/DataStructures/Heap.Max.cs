@@ -74,6 +74,11 @@
 
         public override void Print()
         {
+            PrintDFS();
+        }
+
+        public override void PrintDFS()
+        {
             // DF approach
             var stack = new Stack<Node<int>>();
             stack.Push(Head);
@@ -86,6 +91,23 @@
 
                 if (next.Right != null) stack.Push(next.Right);
                 if (next.Left != null) stack.Push(next.Left);
+            }
+        }
+
+        public override void PrintBFS()
+        {
+            // BF approach
+            var queue = new Queue<Node<int>>();
+            queue.Enqueue(Head);
+
+            while (queue.Count > 0)
+            {
+                var next = queue.Dequeue();
+
+                Console.WriteLine(next.Value);
+
+                if (next.Left != null) queue.Enqueue(next.Left);
+                if (next.Right != null) queue.Enqueue(next.Right);
             }
         }
     }
