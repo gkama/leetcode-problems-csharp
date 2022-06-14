@@ -72,11 +72,6 @@
             return true;
         }
 
-        public override void Print()
-        {
-            PrintDFS();
-        }
-
         public override void PrintDFS()
         {
             // DF approach
@@ -109,6 +104,11 @@
                 if (next.Left != null) queue.Enqueue(next.Left);
                 if (next.Right != null) queue.Enqueue(next.Right);
             }
+        }
+
+        public override void Print()
+        {
+            PrintDFS();
         }
     }
 }

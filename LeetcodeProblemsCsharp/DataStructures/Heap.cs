@@ -2,11 +2,11 @@
 {
     public abstract class Heap
     {
-        public abstract bool IsValid();
         public abstract void Initialize();
-        public abstract void Print();
+        public abstract bool IsValid();
         public abstract void PrintBFS();
         public abstract void PrintDFS();
+        public abstract void Print();
     }
 
     public class Node<T>
