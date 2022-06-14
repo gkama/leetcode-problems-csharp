@@ -66,6 +66,9 @@
                 if (next.Right is not null && next.Left is null) return false;
                 if (next.Right is not null && next.Value > next.Right.Value) return false;
                 if (next.Left is not null && next.Value > next.Left.Value) return false;
+
+                if (next.Left is not null) queue.Enqueue(next.Left);
+                if (next.Right is not null) queue.Enqueue(next.Right);
             }
 
             return true;
