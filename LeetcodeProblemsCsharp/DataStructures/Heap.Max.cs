@@ -61,12 +61,12 @@
             {
                 var next = stack.Pop();
 
-                if (next.Left != null && next.Value < next.Left?.Value) return false;
-                else if (next.Right != null && next.Value < next.Right?.Value) return false;
-                else if (next.Left == null && next.Right != null) return false;
+                if (next.Left is not null && next.Value < next.Left?.Value) return false;
+                else if (next.Right is not null && next.Value < next.Right?.Value) return false;
+                else if (next.Left == null && next.Right is not null) return false;
 
-                if (next.Right != null) stack.Push(next.Right);
-                if (next.Left != null) stack.Push(next.Left);
+                if (next.Right is not null) stack.Push(next.Right);
+                if (next.Left is not null) stack.Push(next.Left);
             }
 
             return true;
@@ -84,8 +84,8 @@
 
                 Console.WriteLine(next.Value);
 
-                if (next.Right != null) stack.Push(next.Right);
-                if (next.Left != null) stack.Push(next.Left);
+                if (next.Right is not null) stack.Push(next.Right);
+                if (next.Left is not null) stack.Push(next.Left);
             }
         }
 
@@ -101,8 +101,8 @@
 
                 Console.WriteLine(next.Value);
 
-                if (next.Left != null) queue.Enqueue(next.Left);
-                if (next.Right != null) queue.Enqueue(next.Right);
+                if (next.Left is not null) queue.Enqueue(next.Left);
+                if (next.Right is not null) queue.Enqueue(next.Right);
             }
         }
 
