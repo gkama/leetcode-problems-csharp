@@ -65,15 +65,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuyAndSellStock",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReshapeTheMatrix", "ReshapeTheMatrix\ReshapeTheMatrix.csproj", "{FE4FCC06-DB20-44D9-BE5F-77A785D2AF2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalsTriangle", "PascalsTriangle\PascalsTriangle.csproj", "{6ED56D26-121E-40D3-8BC8-E1E050C8555B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalsTriangle", "PascalsTriangle\PascalsTriangle.csproj", "{6ED56D26-121E-40D3-8BC8-E1E050C8555B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstUniqueCharacterInAString", "FirstUniqueCharacterInAString\FirstUniqueCharacterInAString.csproj", "{8F630985-B230-486A-9188-1100782B12FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueCharacterInAString", "FirstUniqueCharacterInAString\FirstUniqueCharacterInAString.csproj", "{8F630985-B230-486A-9188-1100782B12FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RansomNote", "RansomNote\RansomNote.csproj", "{8E71AD6C-85EA-4DF6-84CD-96263BB6FF17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RansomNote", "RansomNote\RansomNote.csproj", "{8E71AD6C-85EA-4DF6-84CD-96263BB6FF17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram", "ValidAnagram\ValidAnagram.csproj", "{B5D15572-D046-4574-9E14-AFC41D2EB3A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidAnagram", "ValidAnagram\ValidAnagram.csproj", "{B5D15572-D046-4574-9E14-AFC41D2EB3A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidSudoku", "ValidSudoku\ValidSudoku.csproj", "{49F6C70C-70A6-456F-BA23-4419DAA70437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidSudoku", "ValidSudoku\ValidSudoku.csproj", "{49F6C70C-70A6-456F-BA23-4419DAA70437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchA2DArray", "SearchA2DArray\SearchA2DArray.csproj", "{941B096C-8417-4886-A853-B3111930AFC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{49F6C70C-70A6-456F-BA23-4419DAA70437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49F6C70C-70A6-456F-BA23-4419DAA70437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49F6C70C-70A6-456F-BA23-4419DAA70437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941B096C-8417-4886-A853-B3111930AFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941B096C-8417-4886-A853-B3111930AFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941B096C-8417-4886-A853-B3111930AFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941B096C-8417-4886-A853-B3111930AFC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
