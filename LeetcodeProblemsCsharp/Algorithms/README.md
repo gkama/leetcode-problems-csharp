@@ -38,8 +38,8 @@ A quick list
 ### List of search algorithms I looked at more in depth
 
 - [] Binary search
-- [] Depth first search
-- [] Breadth first search
+- [x] Depth first search
+- [x] Breadth first search
 
 ## Resources
 
