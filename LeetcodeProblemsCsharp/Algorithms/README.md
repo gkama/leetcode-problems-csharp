@@ -7,6 +7,15 @@ Algorithms
 Used to analyze the cost of an algorithm. Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. 
 In plain words, Big O notation describes the complexity of your code using algebraic terms.
 
+## Algorithms
+
+A quick list
+
+- Quick select
+- Dijkstra
+- Bellman-Ford
+- A-star (rare)
+
 ## Sort algorithms
 
 A quick list
@@ -16,6 +25,8 @@ A quick list
 - Bubble sort
 - Merge sort
 - Quick sort
+- Topological sort
+- Counting sort
 
 ### List of sort algorithms I looked at more in depth
 
@@ -24,6 +35,8 @@ A quick list
 - [] Bubble sort
 - [] Merge sort
 - [] Quick sort
+- [] Topological sort
+- [] Counting sort
 
 ## Search algorithms
 
