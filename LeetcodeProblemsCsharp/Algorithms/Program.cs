@@ -12,5 +12,12 @@ var selectionSort = SelectionSort.Sort(array);
 //foreach (var res in searched)
 //    Console.Write($"{res} ");
 
-var pos = 3;
-Console.WriteLine(new QuickSelect().Select(array1, 0, array1.Length - 1, pos - 1));
+//var pos = 3;
+//Console.WriteLine(new QuickSelect().Select(array1, 0, array1.Length - 1, pos - 1));
+
+var sortedArray = new int[] { 1, 2, 3, 4, 5 };
+foreach (var s in sortedArray)
+{
+    Console.WriteLine($"{s} -> {BinarySearch.Interative(sortedArray, s)}");
+}
+Console.WriteLine($"{10} -> {BinarySearch.Interative(sortedArray, 10)}");

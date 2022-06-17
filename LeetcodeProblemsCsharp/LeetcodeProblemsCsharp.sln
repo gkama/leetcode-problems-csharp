@@ -83,15 +83,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemovedLinkedListElements",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedList", "ReverseLinkedList\ReverseLinkedList.csproj", "{E1AE3480-50B5-4B62-A1C8-C6B8651C3FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedList", "RemoveDuplicatesFromSortedList\RemoveDuplicatesFromSortedList.csproj", "{D06FB77C-D0A8-41E1-A1F1-7924C54C781B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesFromSortedList", "RemoveDuplicatesFromSortedList\RemoveDuplicatesFromSortedList.csproj", "{D06FB77C-D0A8-41E1-A1F1-7924C54C781B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementQueueUsingStacks", "ImplementQueueUsingStacks\ImplementQueueUsingStacks.csproj", "{AAD2EA67-406D-4F16-B8EC-61B5E1DE2B9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementQueueUsingStacks", "ImplementQueueUsingStacks\ImplementQueueUsingStacks.csproj", "{AAD2EA67-406D-4F16-B8EC-61B5E1DE2B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{312FD1EB-AB71-46AC-A360-94F1D366A06B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{312FD1EB-AB71-46AC-A360-94F1D366A06B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstBadVersion", "FirstBadVersion\FirstBadVersion.csproj", "{CFC66710-2B7D-4C82-855E-D66382D95DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstBadVersion", "FirstBadVersion\FirstBadVersion.csproj", "{CFC66710-2B7D-4C82-855E-D66382D95DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbingStairs", "ClimbingStairs\ClimbingStairs.csproj", "{1C424CFA-6C42-4569-BE9B-0A999D3B5589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingStairs", "ClimbingStairs\ClimbingStairs.csproj", "{1C424CFA-6C42-4569-BE9B-0A999D3B5589}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeInorderTraversal", "BinaryTreeInorderTraversal\BinaryTreeInorderTraversal.csproj", "{97A5687A-47C6-4025-B0F7-C79001C80F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreePreorderTraversal", "BinaryTreePreorderTraversal\BinaryTreePreorderTraversal.csproj", "{FC931411-815A-43D5-A647-7A583CB8AEB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreePostorderTraversal", "BinaryTreePostorderTraversal\BinaryTreePostorderTraversal.csproj", "{13B435B5-4964-4FFC-9498-8DD4DB998EF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +285,18 @@ Global
 		{1C424CFA-6C42-4569-BE9B-0A999D3B5589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C424CFA-6C42-4569-BE9B-0A999D3B5589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C424CFA-6C42-4569-BE9B-0A999D3B5589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A5687A-47C6-4025-B0F7-C79001C80F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A5687A-47C6-4025-B0F7-C79001C80F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A5687A-47C6-4025-B0F7-C79001C80F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A5687A-47C6-4025-B0F7-C79001C80F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC931411-815A-43D5-A647-7A583CB8AEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC931411-815A-43D5-A647-7A583CB8AEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC931411-815A-43D5-A647-7A583CB8AEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC931411-815A-43D5-A647-7A583CB8AEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B435B5-4964-4FFC-9498-8DD4DB998EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B435B5-4964-4FFC-9498-8DD4DB998EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B435B5-4964-4FFC-9498-8DD4DB998EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B435B5-4964-4FFC-9498-8DD4DB998EF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
