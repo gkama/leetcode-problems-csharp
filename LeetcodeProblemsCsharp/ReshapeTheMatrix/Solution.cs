@@ -3,41 +3,36 @@ public static class Solution
 {
     public static int[][] MatrixReshape(int[][] mat, int r, int c)
     {
-        // Check if possible to recreate r x c
-        var rows = mat.GetLength(0);
-        var cols = mat[0].Length;
+        int curRows = mat.Length;
+        int curColumns = mat[0].Length;
 
-        if (rows * cols < r * c)
+        if ((curRows * curColumns) == (r * c))
         {
-            return mat;
-        }
+            int[][] result = new int[r][];
 
-        int[][] toReturn = new int[r][];
-
-        for (var k = 0; k < toReturn.GetLength(0); k++)
-        {
-            toReturn[k] = new int[c];
-        }
-
-        var iRow = 0;
-        var iCol = 0;
-
-        for (int i = 0; i < r; i++)
-        {
-            for (int j = 0; j < c; j++)
+            for (int i = 0; i < r; i++)
             {
-                if ((iRow < rows) || (iCol < cols))
+                result[i] = new int[c];
+            }
+            int x = 0, y = 0;
+            for (int i = 0; i < r; i++)
+            {
+                for (int j = 0; j < c; j++)
                 {
-                    if (iCol >= cols)
+                    if ((x < curRows) || (y < curColumns))
                     {
-                        iCol = 0;
-                        iRow++;
+                        if (y >= curColumns)
+                        {
+                            y = 0;
+                            x++;
+                        }
+                        result[i][j] = mat[x][y++];
                     }
-                    toReturn[i][j] = mat[iRow][iCol++];
                 }
             }
+            return result;
         }
 
-        return toReturn;
+        return mat;
     }
 }

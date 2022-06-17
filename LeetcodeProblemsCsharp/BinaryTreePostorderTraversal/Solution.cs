@@ -46,4 +46,43 @@ public static class Solution
 
         return nodesValues;
     }
+
+    private static IList<int> PostorderTraversalWithStacks(TreeNode root)
+    {
+        var nodesValues = new List<int>();
+
+        if (root == null) return nodesValues;
+        else if (root.left == null && root.right == null)
+        {
+            nodesValues.Add(root.val);
+            return nodesValues;
+        }
+
+        var s1 = new Stack<TreeNode>();
+        var s2 = new Stack<TreeNode>();
+        s1.Push(root);
+
+        while (s1.Count() > 0)
+        {
+            root = s1.Pop();
+            s2.Push(root);
+
+            if (root.left != null)
+            {
+                s1.Push(root.left);
+            }
+            if (root.right != null)
+            {
+                s1.Push(root.right);
+            }
+        }
+
+        while (s2.Count() > 0)
+        {
+            root = s2.Pop();
+            nodesValues.Add(root.val);
+        }
+
+        return nodesValues;
+    }
 }
