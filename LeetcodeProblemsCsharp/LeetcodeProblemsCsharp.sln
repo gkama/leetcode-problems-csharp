@@ -109,6 +109,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeLevelOrderTravers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertIntoABinarySearchTree", "InsertIntoABinarySearchTree\InsertIntoABinarySearchTree.csproj", "{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateArray", "RotateArray\RotateArray.csproj", "{114B78D3-039B-4666-A30B-AF1F67FDE17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStringForArray", "ReverseStringForArray\ReverseStringForArray.csproj", "{8C4020CB-E031-4AA4-8480-B8CCA76EA98C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -327,6 +331,14 @@ Global
 		{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114B78D3-039B-4666-A30B-AF1F67FDE17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114B78D3-039B-4666-A30B-AF1F67FDE17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114B78D3-039B-4666-A30B-AF1F67FDE17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114B78D3-039B-4666-A30B-AF1F67FDE17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4020CB-E031-4AA4-8480-B8CCA76EA98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4020CB-E031-4AA4-8480-B8CCA76EA98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4020CB-E031-4AA4-8480-B8CCA76EA98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4020CB-E031-4AA4-8480-B8CCA76EA98C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
