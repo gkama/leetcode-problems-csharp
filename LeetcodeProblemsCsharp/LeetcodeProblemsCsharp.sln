@@ -95,15 +95,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClimbingStairs", "ClimbingS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeInorderTraversal", "BinaryTreeInorderTraversal\BinaryTreeInorderTraversal.csproj", "{97A5687A-47C6-4025-B0F7-C79001C80F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreePreorderTraversal", "BinaryTreePreorderTraversal\BinaryTreePreorderTraversal.csproj", "{FC931411-815A-43D5-A647-7A583CB8AEB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreePreorderTraversal", "BinaryTreePreorderTraversal\BinaryTreePreorderTraversal.csproj", "{FC931411-815A-43D5-A647-7A583CB8AEB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreePostorderTraversal", "BinaryTreePostorderTraversal\BinaryTreePostorderTraversal.csproj", "{13B435B5-4964-4FFC-9498-8DD4DB998EF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreePostorderTraversal", "BinaryTreePostorderTraversal\BinaryTreePostorderTraversal.csproj", "{13B435B5-4964-4FFC-9498-8DD4DB998EF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{F566EB93-442C-4904-9858-9C8C53ADC388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{F566EB93-442C-4904-9858-9C8C53ADC388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringToInteger", "StringToInteger\StringToInteger.csproj", "{BF782B17-4716-42DE-8736-814431BD9CDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringToInteger", "StringToInteger\StringToInteger.csproj", "{BF782B17-4716-42DE-8736-814431BD9CDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameTree", "SameTree\SameTree.csproj", "{0D2A0962-F767-437B-BD8E-72899AD8F065}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SameTree", "SameTree\SameTree.csproj", "{0D2A0962-F767-437B-BD8E-72899AD8F065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeLevelOrderTraversal", "BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.csproj", "{7A788460-69B9-4AFF-AE36-A160D47C9A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertIntoABinarySearchTree", "InsertIntoABinarySearchTree\InsertIntoABinarySearchTree.csproj", "{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -315,6 +319,14 @@ Global
 		{0D2A0962-F767-437B-BD8E-72899AD8F065}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D2A0962-F767-437B-BD8E-72899AD8F065}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D2A0962-F767-437B-BD8E-72899AD8F065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A788460-69B9-4AFF-AE36-A160D47C9A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A788460-69B9-4AFF-AE36-A160D47C9A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A788460-69B9-4AFF-AE36-A160D47C9A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A788460-69B9-4AFF-AE36-A160D47C9A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
