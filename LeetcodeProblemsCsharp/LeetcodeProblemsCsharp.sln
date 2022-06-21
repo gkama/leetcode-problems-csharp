@@ -117,13 +117,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWordsInAString2", "R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddleOfTheLinkedList", "MiddleOfTheLinkedList\MiddleOfTheLinkedList.csproj", "{3681DFF2-B84F-489B-9E46-86B6419DFA37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString2", "ReverseString2\ReverseString2.csproj", "{5F6DCD25-118B-4E5B-8A1F-A3560618EA2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseString2", "ReverseString2\ReverseString2.csproj", "{5F6DCD25-118B-4E5B-8A1F-A3560618EA2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowestCommonAncestorOfABinarySearchTree", "LowestCommonAncestorOfABinarySearchTree\LowestCommonAncestorOfABinarySearchTree.csproj", "{20AA41CE-8AD1-4302-A645-2C886BE0589D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LowestCommonAncestorOfABinarySearchTree", "LowestCommonAncestorOfABinarySearchTree\LowestCommonAncestorOfABinarySearchTree.csproj", "{20AA41CE-8AD1-4302-A645-2C886BE0589D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSumOfABinarySearchTree4", "TwoSumOfABinarySearchTree4\TwoSumOfABinarySearchTree4.csproj", "{AA326F13-E666-415B-A362-123984C5186A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSumOfABinarySearchTree4", "TwoSumOfABinarySearchTree4\TwoSumOfABinarySearchTree4.csproj", "{AA326F13-E666-415B-A362-123984C5186A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidateBinarySearchTree", "ValidateBinarySearchTree\ValidateBinarySearchTree.csproj", "{D6EEC5BD-C706-4B45-A6EE-4D619565E32E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidateBinarySearchTree", "ValidateBinarySearchTree\ValidateBinarySearchTree.csproj", "{D6EEC5BD-C706-4B45-A6EE-4D619565E32E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum2", "TwoSum2\TwoSum2.csproj", "{AD60D190-8683-4DD6-9962-7B57FC74E3AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -371,14 +373,14 @@ Global
 		{AA326F13-E666-415B-A362-123984C5186A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA326F13-E666-415B-A362-123984C5186A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA326F13-E666-415B-A362-123984C5186A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A565F63A-4AB3-4E78-9FA1-7737174DE48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A565F63A-4AB3-4E78-9FA1-7737174DE48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A565F63A-4AB3-4E78-9FA1-7737174DE48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A565F63A-4AB3-4E78-9FA1-7737174DE48B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6EEC5BD-C706-4B45-A6EE-4D619565E32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6EEC5BD-C706-4B45-A6EE-4D619565E32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6EEC5BD-C706-4B45-A6EE-4D619565E32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6EEC5BD-C706-4B45-A6EE-4D619565E32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD60D190-8683-4DD6-9962-7B57FC74E3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD60D190-8683-4DD6-9962-7B57FC74E3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD60D190-8683-4DD6-9962-7B57FC74E3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD60D190-8683-4DD6-9962-7B57FC74E3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
