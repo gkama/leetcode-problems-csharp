@@ -105,17 +105,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringToInteger", "StringTo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SameTree", "SameTree\SameTree.csproj", "{0D2A0962-F767-437B-BD8E-72899AD8F065}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeLevelOrderTraversal", "BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.csproj", "{7A788460-69B9-4AFF-AE36-A160D47C9A8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTreeLevelOrderTraversal", "BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.csproj", "{7A788460-69B9-4AFF-AE36-A160D47C9A8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertIntoABinarySearchTree", "InsertIntoABinarySearchTree\InsertIntoABinarySearchTree.csproj", "{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertIntoABinarySearchTree", "InsertIntoABinarySearchTree\InsertIntoABinarySearchTree.csproj", "{C3E10606-72B2-4FD3-9E5F-02D71CCDEAF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateArray", "RotateArray\RotateArray.csproj", "{114B78D3-039B-4666-A30B-AF1F67FDE17E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "RotateArray\RotateArray.csproj", "{114B78D3-039B-4666-A30B-AF1F67FDE17E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseStringForArray", "ReverseStringForArray\ReverseStringForArray.csproj", "{8C4020CB-E031-4AA4-8480-B8CCA76EA98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStringForArray", "ReverseStringForArray\ReverseStringForArray.csproj", "{8C4020CB-E031-4AA4-8480-B8CCA76EA98C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsInAString2", "ReverseWordsInAString2\ReverseWordsInAString2.csproj", "{33B37904-25D6-4192-A55B-122209248273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWordsInAString2", "ReverseWordsInAString2\ReverseWordsInAString2.csproj", "{33B37904-25D6-4192-A55B-122209248273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleOfTheLinkedList", "MiddleOfTheLinkedList\MiddleOfTheLinkedList.csproj", "{3681DFF2-B84F-489B-9E46-86B6419DFA37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddleOfTheLinkedList", "MiddleOfTheLinkedList\MiddleOfTheLinkedList.csproj", "{3681DFF2-B84F-489B-9E46-86B6419DFA37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString2", "ReverseString2\ReverseString2.csproj", "{5F6DCD25-118B-4E5B-8A1F-A3560618EA2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +353,10 @@ Global
 		{3681DFF2-B84F-489B-9E46-86B6419DFA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3681DFF2-B84F-489B-9E46-86B6419DFA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3681DFF2-B84F-489B-9E46-86B6419DFA37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6DCD25-118B-4E5B-8A1F-A3560618EA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6DCD25-118B-4E5B-8A1F-A3560618EA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6DCD25-118B-4E5B-8A1F-A3560618EA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6DCD25-118B-4E5B-8A1F-A3560618EA2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
