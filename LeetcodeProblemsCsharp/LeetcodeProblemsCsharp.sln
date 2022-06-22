@@ -135,6 +135,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MajorityElement", "Majority
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeSum", "ThreeSum\ThreeSum.csproj", "{6CEA9D03-5060-4E2D-8F8E-9D3F2703D9F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNthNodeFromEndOfList", "RemoveNthNodeFromEndOfList\RemoveNthNodeFromEndOfList.csproj", "{070303BF-C6F2-4A4E-8FE7-A62669E75556}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -405,6 +407,10 @@ Global
 		{6CEA9D03-5060-4E2D-8F8E-9D3F2703D9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CEA9D03-5060-4E2D-8F8E-9D3F2703D9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CEA9D03-5060-4E2D-8F8E-9D3F2703D9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070303BF-C6F2-4A4E-8FE7-A62669E75556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070303BF-C6F2-4A4E-8FE7-A62669E75556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070303BF-C6F2-4A4E-8FE7-A62669E75556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070303BF-C6F2-4A4E-8FE7-A62669E75556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
