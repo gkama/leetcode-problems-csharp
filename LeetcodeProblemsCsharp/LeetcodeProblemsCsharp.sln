@@ -143,7 +143,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceOfMoves", "Sequence
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotReturnToOrigin", "RobotReturnToOrigin\RobotReturnToOrigin.csproj", "{99C0C6F9-FC0B-4752-BE6F-3AE227D753B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.TwoSym", "DailyByte.TwoSym\DailyByte.TwoSym.csproj", "{5EE03FA7-34B0-4888-B791-97D779167296}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.TwoSum", "DailyByte.TwoSym\DailyByte.TwoSum.csproj", "{5EE03FA7-34B0-4888-B791-97D779167296}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
