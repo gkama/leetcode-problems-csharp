@@ -145,6 +145,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotReturnToOrigin", "Robo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.TwoSum", "DailyByte.TwoSym\DailyByte.TwoSum.csproj", "{5EE03FA7-34B0-4888-B791-97D779167296}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignHashMap", "DesignHashMap\DesignHashMap.csproj", "{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +437,10 @@ Global
 		{5EE03FA7-34B0-4888-B791-97D779167296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE03FA7-34B0-4888-B791-97D779167296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EE03FA7-34B0-4888-B791-97D779167296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
