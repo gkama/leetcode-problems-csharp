@@ -21,6 +21,27 @@
         return false;
     }
 
+    public static bool HasTwoSumWithHashSet(int[] nums, int target)
+    {
+        if (nums == null || nums.Length < 2) return false;
+
+        var set = new HashSet<int>();
+
+        for (var i = 0; i < nums.Length; i++)
+        {
+            if (set.Contains(target - nums[i]))
+            {
+                return true;
+            }
+            else if (!set.Contains(nums[i]))
+            {
+                set.Add(nums[i]);
+            }
+        }
+
+        return false;
+    }
+
     public static void Examples()
     {
         var exs = new Dictionary<int, int[]>
@@ -30,11 +51,13 @@
             { 4, new int[] { 4, 2, 6, 5, 2 } },
             { 1, new int[] { -3, 4, 6, 5, 2 } },
             { -4, new int[] { -3, 4, 6, 5, -1 } },
+            { -7, new int[] { -3, 4, 6, 5, -1 } },
+            { -10, new int[] { -3, 4, 6, 5, 1, -11 } },
         };
 
         foreach (var ex in exs)
         {
-            Console.WriteLine($"{ex.Key} in {string.Join(",", ex.Value)} -> {HasTwoSum(ex.Value, ex.Key)}");
+            Console.WriteLine($"{ex.Key} in {string.Join(",", ex.Value)} -> {HasTwoSumWithHashSet(ex.Value, ex.Key)}");
         }
     }
 }
