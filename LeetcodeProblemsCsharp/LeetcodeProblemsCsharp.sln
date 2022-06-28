@@ -139,9 +139,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveNthNodeFromEndOfList"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertSortedArrayToBinarySearchTree", "ConvertSortedArrayToBinarySearchTree\ConvertSortedArrayToBinarySearchTree.csproj", "{D9825623-C5FA-4C38-AB71-9DD2E251B587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceOfMoves", "SequenceOfMoves\SequenceOfMoves.csproj", "{BB4B9797-1222-4821-9EBF-E4EC889EDC12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceOfMoves", "SequenceOfMoves\SequenceOfMoves.csproj", "{BB4B9797-1222-4821-9EBF-E4EC889EDC12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotReturnToOrigin", "RobotReturnToOrigin\RobotReturnToOrigin.csproj", "{99C0C6F9-FC0B-4752-BE6F-3AE227D753B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotReturnToOrigin", "RobotReturnToOrigin\RobotReturnToOrigin.csproj", "{99C0C6F9-FC0B-4752-BE6F-3AE227D753B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.TwoSym", "DailyByte.TwoSym\DailyByte.TwoSym.csproj", "{5EE03FA7-34B0-4888-B791-97D779167296}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -429,6 +431,10 @@ Global
 		{99C0C6F9-FC0B-4752-BE6F-3AE227D753B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99C0C6F9-FC0B-4752-BE6F-3AE227D753B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99C0C6F9-FC0B-4752-BE6F-3AE227D753B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE03FA7-34B0-4888-B791-97D779167296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE03FA7-34B0-4888-B791-97D779167296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE03FA7-34B0-4888-B791-97D779167296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE03FA7-34B0-4888-B791-97D779167296}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
