@@ -143,9 +143,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceOfMoves", "Sequence
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RobotReturnToOrigin", "RobotReturnToOrigin\RobotReturnToOrigin.csproj", "{99C0C6F9-FC0B-4752-BE6F-3AE227D753B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.TwoSum", "DailyByte.TwoSym\DailyByte.TwoSum.csproj", "{5EE03FA7-34B0-4888-B791-97D779167296}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.TwoSum", "DailyByte.TwoSym\DailyByte.TwoSum.csproj", "{5EE03FA7-34B0-4888-B791-97D779167296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignHashMap", "DesignHashMap\DesignHashMap.csproj", "{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignHashMap", "DesignHashMap\DesignHashMap.csproj", "{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.JewelsAndStones", "DailyByte.JewelsAndStones\DailyByte.JewelsAndStones.csproj", "{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -441,6 +443,10 @@ Global
 		{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
