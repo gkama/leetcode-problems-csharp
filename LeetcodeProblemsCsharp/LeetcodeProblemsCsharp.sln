@@ -147,7 +147,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.TwoSum", "DailyBy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignHashMap", "DesignHashMap\DesignHashMap.csproj", "{7B160E6C-A7AB-4C6E-9B44-E92AB524D2E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.JewelsAndStones", "DailyByte.JewelsAndStones\DailyByte.JewelsAndStones.csproj", "{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.JewelsAndStones", "DailyByte.JewelsAndStones\DailyByte.JewelsAndStones.csproj", "{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.IsValidAnagram", "DailyByte.IsValidAnagram\DailyByte.IsValidAnagram.csproj", "{0C9D7ED5-FF3A-462F-8618-316D662643E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -447,6 +449,10 @@ Global
 		{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3C5361D-3145-411F-AFC4-B8FF6077D7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9D7ED5-FF3A-462F-8618-316D662643E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9D7ED5-FF3A-462F-8618-316D662643E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9D7ED5-FF3A-462F-8618-316D662643E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9D7ED5-FF3A-462F-8618-316D662643E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
