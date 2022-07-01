@@ -71,6 +71,33 @@ public static class Solution
     }
     #endregion
 
+    #region Sol 3
+    // Doesn't really work because it finds the first sorted
+    public static int FirstUniqueCharacter3(string s)
+    {
+        if (string.IsNullOrWhiteSpace(s)) return -1;
+
+        var sCharArray = s.ToCharArray();
+
+        Array.Sort(sCharArray);
+
+        for (var i = 0; i < sCharArray.Length; i += 2)
+        {
+            if (i + 1 > sCharArray.Length - 1)
+            {
+                return s.IndexOf(sCharArray[i]);
+            }
+
+            if (sCharArray[i] != sCharArray[i + 1])
+            {
+                return s.IndexOf(sCharArray[i]);
+            }
+        }
+
+        return -1;
+    }
+    #endregion
+
     public static void Examples()
     {
         var exs = new List<string>
@@ -82,7 +109,7 @@ public static class Solution
 
         foreach (var ex in exs)
         {
-            Console.WriteLine($"{ex} -> {FirstUniqueCharacter2(ex)}");
+            Console.WriteLine($"{ex} -> {FirstUniqueCharacter(ex)}");
         }
     }
 }
