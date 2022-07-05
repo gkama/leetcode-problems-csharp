@@ -151,7 +151,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.JewelsAndStones",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.IsValidAnagram", "DailyByte.IsValidAnagram\DailyByte.IsValidAnagram.csproj", "{0C9D7ED5-FF3A-462F-8618-316D662643E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.FirstUniqueCharacter", "DailyByte.FirstUniqueCharacter\DailyByte.FirstUniqueCharacter.csproj", "{A1F53069-CF66-41F1-B8BD-475647DF4480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.FirstUniqueCharacter", "DailyByte.FirstUniqueCharacter\DailyByte.FirstUniqueCharacter.csproj", "{A1F53069-CF66-41F1-B8BD-475647DF4480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.UncommonWords", "DailyByte.UncommonWords\DailyByte.UncommonWords.csproj", "{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -459,6 +461,10 @@ Global
 		{A1F53069-CF66-41F1-B8BD-475647DF4480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1F53069-CF66-41F1-B8BD-475647DF4480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1F53069-CF66-41F1-B8BD-475647DF4480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
