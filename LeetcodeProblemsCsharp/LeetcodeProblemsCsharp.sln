@@ -153,7 +153,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.IsValidAnagram", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.FirstUniqueCharacter", "DailyByte.FirstUniqueCharacter\DailyByte.FirstUniqueCharacter.csproj", "{A1F53069-CF66-41F1-B8BD-475647DF4480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.UncommonWords", "DailyByte.UncommonWords\DailyByte.UncommonWords.csproj", "{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.UncommonWords", "DailyByte.UncommonWords\DailyByte.UncommonWords.csproj", "{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.MergeLinkedLists", "DailyByte.MergeLinkedLists\DailyByte.MergeLinkedLists.csproj", "{FFEB9E20-726E-44BF-8637-12DB1D57A0D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -465,6 +467,10 @@ Global
 		{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ED0AC61-F02A-4E12-9B0F-426D84DB01FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEB9E20-726E-44BF-8637-12DB1D57A0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEB9E20-726E-44BF-8637-12DB1D57A0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEB9E20-726E-44BF-8637-12DB1D57A0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEB9E20-726E-44BF-8637-12DB1D57A0D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
