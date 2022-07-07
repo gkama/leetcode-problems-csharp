@@ -159,6 +159,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.MergeLinkedLists"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.RemoveValue", "DailyByte.RemoveValue\DailyByte.RemoveValue.csproj", "{A9B3E46B-42C4-40DB-B56F-04385C8FA989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalsTriangle2", "PascalsTriangle2\PascalsTriangle2.csproj", "{B7291C8A-5425-487D-9233-A8C592B5D899}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddStrings", "AddStrings\AddStrings.csproj", "{51B0D940-27F4-4065-8D11-BF942DC15CE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -477,6 +481,14 @@ Global
 		{A9B3E46B-42C4-40DB-B56F-04385C8FA989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B3E46B-42C4-40DB-B56F-04385C8FA989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B3E46B-42C4-40DB-B56F-04385C8FA989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7291C8A-5425-487D-9233-A8C592B5D899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7291C8A-5425-487D-9233-A8C592B5D899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7291C8A-5425-487D-9233-A8C592B5D899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7291C8A-5425-487D-9233-A8C592B5D899}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B0D940-27F4-4065-8D11-BF942DC15CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B0D940-27F4-4065-8D11-BF942DC15CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B0D940-27F4-4065-8D11-BF942DC15CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B0D940-27F4-4065-8D11-BF942DC15CE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
