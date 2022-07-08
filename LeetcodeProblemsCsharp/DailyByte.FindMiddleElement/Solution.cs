@@ -39,17 +39,16 @@ public static class Solution
 
     public static void Examples()
     {
-        var head1 = new LinkedNode { Value = 1, Next = new LinkedNode { Value = 2, Next = new LinkedNode { Value = 3 } } };
-        var head2 = new LinkedNode { Value = 1, Next = new LinkedNode { Value = 2, Next = new LinkedNode { Value = 3, Next = new LinkedNode { Value = 4 } } } };
-        var head3 = new LinkedNode { Value = 1 };
+        var exs = new List<LinkedNode>
+        {
+            new LinkedNode { Value = 1, Next = new LinkedNode { Value = 2, Next = new LinkedNode { Value = 3 } } },
+            new LinkedNode { Value = 1, Next = new LinkedNode { Value = 2, Next = new LinkedNode { Value = 3, Next = new LinkedNode { Value = 4 } } } },
+            new LinkedNode { Value = 1 }
+        };
 
-        var ex1 = FindMiddleElement(head1);
-        var ex2 = FindMiddleElement(head2);
-        var ex3 = FindMiddleElement(head3);
-
-        // Print
-        Console.WriteLine(ex1);
-        Console.WriteLine(ex2);
-        Console.WriteLine(ex3);
+        foreach (var ex in exs)
+        {
+            Console.WriteLine(FindMiddleElement(ex));
+        }
     }
 }
