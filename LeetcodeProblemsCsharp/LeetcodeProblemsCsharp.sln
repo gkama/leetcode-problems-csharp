@@ -163,7 +163,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalsTriangle2", "Pascals
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddStrings", "AddStrings\AddStrings.csproj", "{51B0D940-27F4-4065-8D11-BF942DC15CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.FindMiddleElement", "DailyByte.FindMiddleElement\DailyByte.FindMiddleElement.csproj", "{83130EDE-0ABB-4444-84A9-96F68B8F565A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.FindMiddleElement", "DailyByte.FindMiddleElement\DailyByte.FindMiddleElement.csproj", "{83130EDE-0ABB-4444-84A9-96F68B8F565A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.ContainsCycle", "DailyByte.ContainsCycle\DailyByte.ContainsCycle.csproj", "{F6E9F301-91E2-4D97-8D58-4BF04408773B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -495,6 +497,10 @@ Global
 		{83130EDE-0ABB-4444-84A9-96F68B8F565A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83130EDE-0ABB-4444-84A9-96F68B8F565A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83130EDE-0ABB-4444-84A9-96F68B8F565A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E9F301-91E2-4D97-8D58-4BF04408773B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E9F301-91E2-4D97-8D58-4BF04408773B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E9F301-91E2-4D97-8D58-4BF04408773B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E9F301-91E2-4D97-8D58-4BF04408773B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
