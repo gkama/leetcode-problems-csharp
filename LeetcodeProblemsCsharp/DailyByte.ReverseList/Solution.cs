@@ -20,7 +20,7 @@ public static class Solution
         }
     }
 
-    public static LinkedNode? ReverseList(LinkedNode head)
+    public static LinkedNode? ReverseList(LinkedNode? head)
     {
         if (head == null) return null;
 
