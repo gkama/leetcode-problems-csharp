@@ -11,7 +11,7 @@ public static class Solution
     public class LinkedNode
     {
         public int Value { get; set; }
-        public LinkedNode Next { get; set; }
+        public LinkedNode? Next { get; set; }
 
         public LinkedNode(int value = 0, LinkedNode? next = null)
         {
