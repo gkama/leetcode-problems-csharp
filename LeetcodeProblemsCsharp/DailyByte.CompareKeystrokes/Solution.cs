@@ -12,22 +12,8 @@ public static class Solution
     {
         // Keep 2 stacks and pop everytime you see a #
         // Once you have exhausted the 2 string arrays, check if they are equal by combining the stacks
-        var sStack = new Stack<string>();
-        var tStack = new Stack<string>();
-
-        // s
-        for (var i = 0; i < s.Length; i++)
-        {
-            if (s[i] != '#') sStack.Push(s[i].ToString());
-            else sStack.Pop();
-        }
-
-        // t
-        for (var i = 0; i < t.Length; i++)
-        {
-            if (t[i] != '#') tStack.Push(t[i].ToString());
-            else tStack.Pop();
-        }
+        var sStack = PopulateStack(s);
+        var tStack = PopulateStack(t);
 
         // Create strings back up from the stacks
         var sStringBuilder = new System.Text.StringBuilder();
@@ -46,6 +32,19 @@ public static class Solution
         }
 
         return sStringBuilder.ToString() == tStringBuilder.ToString();
+    }
+
+    private static Stack<string> PopulateStack(string s)
+    {
+        var stack = new Stack<string>();
+
+        for (var i = 0; i < s.Length; i++)
+        {
+            if (s[i] != '#') stack.Push(s[i].ToString());
+            else stack.Pop();
+        }
+
+        return stack;
     }
 
     public static void Examples()
