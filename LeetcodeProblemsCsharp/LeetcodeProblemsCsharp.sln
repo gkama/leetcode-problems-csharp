@@ -173,7 +173,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.ReverseList", "Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.ValidateCharacters", "DailyByte.ValidateCharacters\DailyByte.ValidateCharacters.csproj", "{813BFC6C-C03C-448C-B134-3A5E21BECF0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.CompareKeystrokes", "DailyByte.CompareKeystrokes\DailyByte.CompareKeystrokes.csproj", "{4087EA74-4834-4DF3-BDD3-EB9010353A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.CompareKeystrokes", "DailyByte.CompareKeystrokes\DailyByte.CompareKeystrokes.csproj", "{4087EA74-4834-4DF3-BDD3-EB9010353A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.RemoveAdjacentDuplicates", "DailyByte.RemoveAdjacentDuplicates\DailyByte.RemoveAdjacentDuplicates.csproj", "{1FFC2B90-DF88-46BF-A293-9C3FDCD5887C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -525,6 +527,10 @@ Global
 		{4087EA74-4834-4DF3-BDD3-EB9010353A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4087EA74-4834-4DF3-BDD3-EB9010353A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4087EA74-4834-4DF3-BDD3-EB9010353A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFC2B90-DF88-46BF-A293-9C3FDCD5887C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFC2B90-DF88-46BF-A293-9C3FDCD5887C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFC2B90-DF88-46BF-A293-9C3FDCD5887C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFC2B90-DF88-46BF-A293-9C3FDCD5887C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
