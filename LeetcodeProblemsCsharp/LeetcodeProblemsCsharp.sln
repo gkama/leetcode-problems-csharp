@@ -175,9 +175,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.ValidateCharacter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.CompareKeystrokes", "DailyByte.CompareKeystrokes\DailyByte.CompareKeystrokes.csproj", "{4087EA74-4834-4DF3-BDD3-EB9010353A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.RemoveAdjacentDuplicates", "DailyByte.RemoveAdjacentDuplicates\DailyByte.RemoveAdjacentDuplicates.csproj", "{1FFC2B90-DF88-46BF-A293-9C3FDCD5887C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.RemoveAdjacentDuplicates", "DailyByte.RemoveAdjacentDuplicates\DailyByte.RemoveAdjacentDuplicates.csproj", "{1FFC2B90-DF88-46BF-A293-9C3FDCD5887C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerWithMostWater", "ContainerWithMostWater\ContainerWithMostWater.csproj", "{921C6711-329D-4E44-908A-E9E6BA3385F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerWithMostWater", "ContainerWithMostWater\ContainerWithMostWater.csproj", "{921C6711-329D-4E44-908A-E9E6BA3385F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.GreaterElements", "DailyByte.GreaterElements\DailyByte.GreaterElements.csproj", "{C8A6E618-E04C-439E-91BF-901A09D059A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -537,6 +539,10 @@ Global
 		{921C6711-329D-4E44-908A-E9E6BA3385F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921C6711-329D-4E44-908A-E9E6BA3385F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{921C6711-329D-4E44-908A-E9E6BA3385F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A6E618-E04C-439E-91BF-901A09D059A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A6E618-E04C-439E-91BF-901A09D059A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A6E618-E04C-439E-91BF-901A09D059A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A6E618-E04C-439E-91BF-901A09D059A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
