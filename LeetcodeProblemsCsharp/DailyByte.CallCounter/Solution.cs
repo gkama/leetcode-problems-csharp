@@ -29,6 +29,18 @@ public static class Solution
             return _pings.Where(x => x > t - 3000)
                 .Count();
         }
+
+        public int pingv2(int t)
+        {
+            _pings.Add(t);
+
+            // Update to remove anything below the dif
+            var diff = t - 3000;
+
+            _pings.RemoveRange(0, _pings.Where(x => x < diff).Count());
+
+            return _pings.Count();
+        }
     }
 
     public static void Examples()
@@ -39,5 +51,15 @@ public static class Solution
         Console.WriteLine(c.ping(3000));
         Console.WriteLine(c.ping(3002));
         Console.WriteLine(c.ping(7000));
+    }
+
+    public static void ExamplesV2()
+    {
+        var c = new CallCounter();
+        Console.WriteLine(c.pingv2(1));
+        Console.WriteLine(c.pingv2(300));
+        Console.WriteLine(c.pingv2(3000));
+        Console.WriteLine(c.pingv2(3002));
+        Console.WriteLine(c.pingv2(7000));
     }
 }
