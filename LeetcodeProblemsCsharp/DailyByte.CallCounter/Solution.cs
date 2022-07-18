@@ -13,8 +13,31 @@
  */
 public static class Solution
 {
-    public static int CallCounter(int t)
+    public class CallCounter
     {
-        return -1;
+        private List<int> _pings;
+
+        public CallCounter()
+        {
+            _pings = new List<int>();
+        }
+
+        public int ping(int t)
+        {
+            _pings.Add(t);
+
+            return _pings.Where(x => x > t - 3000)
+                .Count();
+        }
+    }
+
+    public static void Examples()
+    {
+        var c = new CallCounter();
+        Console.WriteLine(c.ping(1));
+        Console.WriteLine(c.ping(300));
+        Console.WriteLine(c.ping(3000));
+        Console.WriteLine(c.ping(3002));
+        Console.WriteLine(c.ping(7000));
     }
 }
