@@ -181,9 +181,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerWithMostWater", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.GreaterElements", "DailyByte.GreaterElements\DailyByte.GreaterElements.csproj", "{C8A6E618-E04C-439E-91BF-901A09D059A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.CallCounter", "DailyByte.CallCounter\DailyByte.CallCounter.csproj", "{4559ED39-9FCF-4325-927A-AB9B643B5D99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.CallCounter", "DailyByte.CallCounter\DailyByte.CallCounter.csproj", "{4559ED39-9FCF-4325-927A-AB9B643B5D99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.MovingAverage", "DailyByte.MovingAverage\DailyByte.MovingAverage.csproj", "{3D22A37C-E592-4218-84E7-AA0236711A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.MovingAverage", "DailyByte.MovingAverage\DailyByte.MovingAverage.csproj", "{3D22A37C-E592-4218-84E7-AA0236711A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.QueueStack", "DailyByte.QueueStack\DailyByte.QueueStack.csproj", "{8633B811-C111-4537-B114-29D8BDCD4423}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -555,6 +557,10 @@ Global
 		{3D22A37C-E592-4218-84E7-AA0236711A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D22A37C-E592-4218-84E7-AA0236711A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D22A37C-E592-4218-84E7-AA0236711A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8633B811-C111-4537-B114-29D8BDCD4423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8633B811-C111-4537-B114-29D8BDCD4423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8633B811-C111-4537-B114-29D8BDCD4423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8633B811-C111-4537-B114-29D8BDCD4423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
