@@ -191,6 +191,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortColors", "SortColors\So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeIntervals", "MergeIntervals\MergeIntervals.csproj", "{67CBF9DB-BCD8-4FA8-94F6-401D3D4354A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.FindValue", "DailyByte.FindValue\DailyByte.FindValue.csproj", "{3576A299-A1DC-48B6-A2BB-753C1E10B76F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -573,6 +575,10 @@ Global
 		{67CBF9DB-BCD8-4FA8-94F6-401D3D4354A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67CBF9DB-BCD8-4FA8-94F6-401D3D4354A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67CBF9DB-BCD8-4FA8-94F6-401D3D4354A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3576A299-A1DC-48B6-A2BB-753C1E10B76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3576A299-A1DC-48B6-A2BB-753C1E10B76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3576A299-A1DC-48B6-A2BB-753C1E10B76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3576A299-A1DC-48B6-A2BB-753C1E10B76F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
