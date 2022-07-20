@@ -197,6 +197,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "RotateImage\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayExceptSelf", "ProductOfArrayExceptSelf\ProductOfArrayExceptSelf.csproj", "{2FEE9850-B2E2-457B-8BAF-18A21479317E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindrome", "LongestPalindrome\LongestPalindrome.csproj", "{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -591,6 +593,10 @@ Global
 		{2FEE9850-B2E2-457B-8BAF-18A21479317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FEE9850-B2E2-457B-8BAF-18A21479317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FEE9850-B2E2-457B-8BAF-18A21479317E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
