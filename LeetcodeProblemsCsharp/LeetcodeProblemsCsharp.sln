@@ -193,11 +193,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeIntervals", "MergeInte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.FindValue", "DailyByte.FindValue\DailyByte.FindValue.csproj", "{3576A299-A1DC-48B6-A2BB-753C1E10B76F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateImage", "RotateImage\RotateImage.csproj", "{6FEBA846-65CA-450E-9802-89C86E6C1C8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateImage", "RotateImage\RotateImage.csproj", "{6FEBA846-65CA-450E-9802-89C86E6C1C8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfArrayExceptSelf", "ProductOfArrayExceptSelf\ProductOfArrayExceptSelf.csproj", "{2FEE9850-B2E2-457B-8BAF-18A21479317E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductOfArrayExceptSelf", "ProductOfArrayExceptSelf\ProductOfArrayExceptSelf.csproj", "{2FEE9850-B2E2-457B-8BAF-18A21479317E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPalindrome", "LongestPalindrome\LongestPalindrome.csproj", "{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestPalindrome", "LongestPalindrome\LongestPalindrome.csproj", "{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiralMatrix2", "SpiralMatrix2\SpiralMatrix2.csproj", "{03B1C6F3-4C15-49CB-9AC2-FA388B0F3F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPattern", "WordPattern\WordPattern.csproj", "{CBF05D16-5957-4C9B-95A5-AA75D28334B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -597,6 +601,14 @@ Global
 		{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AE8E92-D20E-4B6A-9A4A-D5CB0DD45526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B1C6F3-4C15-49CB-9AC2-FA388B0F3F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B1C6F3-4C15-49CB-9AC2-FA388B0F3F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B1C6F3-4C15-49CB-9AC2-FA388B0F3F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B1C6F3-4C15-49CB-9AC2-FA388B0F3F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF05D16-5957-4C9B-95A5-AA75D28334B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF05D16-5957-4C9B-95A5-AA75D28334B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF05D16-5957-4C9B-95A5-AA75D28334B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF05D16-5957-4C9B-95A5-AA75D28334B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
