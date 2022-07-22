@@ -209,6 +209,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerToRoman", "IntegerTo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCombinationOfAPhoneNumber", "LetterCombinationOfAPhoneNumber\LetterCombinationOfAPhoneNumber.csproj", "{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidPalindrome", "ValidPalindrome\ValidPalindrome.csproj", "{71590544-5FFB-47B7-88D1-1EBEF35D0C41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -627,6 +629,10 @@ Global
 		{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71590544-5FFB-47B7-88D1-1EBEF35D0C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71590544-5FFB-47B7-88D1-1EBEF35D0C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71590544-5FFB-47B7-88D1-1EBEF35D0C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71590544-5FFB-47B7-88D1-1EBEF35D0C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
