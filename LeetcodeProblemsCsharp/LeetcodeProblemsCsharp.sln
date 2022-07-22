@@ -203,9 +203,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpiralMatrix2", "SpiralMatr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordPattern", "WordPattern\WordPattern.csproj", "{CBF05D16-5957-4C9B-95A5-AA75D28334B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonOverlappingIntervals", "NonOverlappingIntervals\NonOverlappingIntervals.csproj", "{AFCED6A7-560C-40F9-B8D7-2F839BB60A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonOverlappingIntervals", "NonOverlappingIntervals\NonOverlappingIntervals.csproj", "{AFCED6A7-560C-40F9-B8D7-2F839BB60A62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToRoman", "IntegerToRoman\IntegerToRoman.csproj", "{B5801651-71E1-4D8D-B047-918ECB38546D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerToRoman", "IntegerToRoman\IntegerToRoman.csproj", "{B5801651-71E1-4D8D-B047-918ECB38546D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCombinationOfAPhoneNumber", "LetterCombinationOfAPhoneNumber\LetterCombinationOfAPhoneNumber.csproj", "{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -621,6 +623,10 @@ Global
 		{B5801651-71E1-4D8D-B047-918ECB38546D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5801651-71E1-4D8D-B047-918ECB38546D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5801651-71E1-4D8D-B047-918ECB38546D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
