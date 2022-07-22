@@ -207,11 +207,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NonOverlappingIntervals", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerToRoman", "IntegerToRoman\IntegerToRoman.csproj", "{B5801651-71E1-4D8D-B047-918ECB38546D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCombinationOfAPhoneNumber", "LetterCombinationOfAPhoneNumber\LetterCombinationOfAPhoneNumber.csproj", "{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetterCombinationOfAPhoneNumber", "LetterCombinationOfAPhoneNumber\LetterCombinationOfAPhoneNumber.csproj", "{EA518BEF-448F-4180-A2CF-DCBC8FB0B362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidPalindrome", "ValidPalindrome\ValidPalindrome.csproj", "{71590544-5FFB-47B7-88D1-1EBEF35D0C41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidPalindrome", "ValidPalindrome\ValidPalindrome.csproj", "{71590544-5FFB-47B7-88D1-1EBEF35D0C41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectionOfTwoLinkedLists", "IntersectionOfTwoLinkedLists\IntersectionOfTwoLinkedLists.csproj", "{D7D67C09-886C-401A-888C-16E59730A014}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntersectionOfTwoLinkedLists", "IntersectionOfTwoLinkedLists\IntersectionOfTwoLinkedLists.csproj", "{D7D67C09-886C-401A-888C-16E59730A014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfOneBits", "NumberOfOneBits\NumberOfOneBits.csproj", "{EC13966B-2551-4E03-A358-30252E90DBE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -639,6 +641,10 @@ Global
 		{D7D67C09-886C-401A-888C-16E59730A014}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7D67C09-886C-401A-888C-16E59730A014}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7D67C09-886C-401A-888C-16E59730A014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC13966B-2551-4E03-A358-30252E90DBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC13966B-2551-4E03-A358-30252E90DBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC13966B-2551-4E03-A358-30252E90DBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC13966B-2551-4E03-A358-30252E90DBE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
