@@ -1,0 +1,25 @@
+Solutions
+
+https://leetcode.com/problems/reverse-bits/
+public class Solution {
+    public uint reverseBits(uint n) {
+        var nBinary = Convert.ToString(n, 2);
+        var reversed = new System.Text.StringBuilder();
+        
+        for (var i = nBinary.Length - 1; i >= 0; i--)
+        {
+            reversed.Append(nBinary[i]);
+        }
+        
+        if (reversed.Length < 32)
+        {
+            var len = 32 - reversed.Length;
+            for (var j = 0; j < len; j++)
+            {
+                reversed.Append("0");
+            }
+        }
+        
+        return Convert.ToUInt32(Convert.ToInt64(reversed.ToString(), 2));
+    }
+}
