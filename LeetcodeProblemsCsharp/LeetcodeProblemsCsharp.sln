@@ -237,6 +237,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfStepsToReduceANumberToZero", "NumberOfStepsToReduceANumberToZero\NumberOfStepsToReduceANumberToZero.csproj", "{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeLinkedList", "PalindromeLinkedList\PalindromeLinkedList.csproj", "{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -711,6 +713,10 @@ Global
 		{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
