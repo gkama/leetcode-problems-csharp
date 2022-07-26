@@ -231,17 +231,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeSumClosest", "ThreeSum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindFirstAndLastPositionOfElementInSortedArray", "FindFirstAndLastPositionOfElementInSortedArray\FindFirstAndLastPositionOfElementInSortedArray.csproj", "{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichestCustomerWealth", "RichestCustomerWealth\RichestCustomerWealth.csproj", "{9798A374-ABC9-4FC7-9820-B3776E36A5B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RichestCustomerWealth", "RichestCustomerWealth\RichestCustomerWealth.csproj", "{9798A374-ABC9-4FC7-9820-B3776E36A5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{0F260D5A-C199-4952-BE0B-BA5CDA7C1B60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{0F260D5A-C199-4952-BE0B-BA5CDA7C1B60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfStepsToReduceANumberToZero", "NumberOfStepsToReduceANumberToZero\NumberOfStepsToReduceANumberToZero.csproj", "{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfStepsToReduceANumberToZero", "NumberOfStepsToReduceANumberToZero\NumberOfStepsToReduceANumberToZero.csproj", "{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeLinkedList", "PalindromeLinkedList\PalindromeLinkedList.csproj", "{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeLinkedList", "PalindromeLinkedList\PalindromeLinkedList.csproj", "{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteNodeInALinkedList", "DeleteNodeInALinkedList\DeleteNodeInALinkedList.csproj", "{394E3CB7-FF6C-48C7-B9FC-E3C778A373D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteNodeInALinkedList", "DeleteNodeInALinkedList\DeleteNodeInALinkedList.csproj", "{394E3CB7-FF6C-48C7-B9FC-E3C778A373D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.GatherLevels", "DailyByte.GatherLevels\DailyByte.GatherLevels.csproj", "{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.GatherLevels", "DailyByte.GatherLevels\DailyByte.GatherLevels.csproj", "{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumber", "MissingNumber\MissingNumber.csproj", "{FB9FFBE8-9F61-4193-88B9-1E1DF706237E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -729,6 +731,10 @@ Global
 		{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9FFBE8-9F61-4193-88B9-1E1DF706237E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9FFBE8-9F61-4193-88B9-1E1DF706237E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9FFBE8-9F61-4193-88B9-1E1DF706237E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9FFBE8-9F61-4193-88B9-1E1DF706237E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
