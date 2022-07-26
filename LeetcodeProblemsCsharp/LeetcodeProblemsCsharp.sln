@@ -227,9 +227,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelSheetColumnNumber", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsomorphicStrings", "IsomorphicStrings\IsomorphicStrings.csproj", "{C4E076B1-A0A0-438D-B56D-6FE0E8017D05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeSumClosest", "ThreeSumClosest\ThreeSumClosest.csproj", "{E6A597DD-B73B-4716-B2A1-B1D0A522C828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeSumClosest", "ThreeSumClosest\ThreeSumClosest.csproj", "{E6A597DD-B73B-4716-B2A1-B1D0A522C828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFirstAndLastPositionOfElementInSortedArray", "FindFirstAndLastPositionOfElementInSortedArray\FindFirstAndLastPositionOfElementInSortedArray.csproj", "{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindFirstAndLastPositionOfElementInSortedArray", "FindFirstAndLastPositionOfElementInSortedArray\FindFirstAndLastPositionOfElementInSortedArray.csproj", "{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichestCustomerWealth", "RichestCustomerWealth\RichestCustomerWealth.csproj", "{9798A374-ABC9-4FC7-9820-B3776E36A5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{0F260D5A-C199-4952-BE0B-BA5CDA7C1B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfStepsToReduceANumberToZero", "NumberOfStepsToReduceANumberToZero\NumberOfStepsToReduceANumberToZero.csproj", "{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -693,6 +699,18 @@ Global
 		{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9798A374-ABC9-4FC7-9820-B3776E36A5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9798A374-ABC9-4FC7-9820-B3776E36A5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9798A374-ABC9-4FC7-9820-B3776E36A5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9798A374-ABC9-4FC7-9820-B3776E36A5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F260D5A-C199-4952-BE0B-BA5CDA7C1B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F260D5A-C199-4952-BE0B-BA5CDA7C1B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F260D5A-C199-4952-BE0B-BA5CDA7C1B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F260D5A-C199-4952-BE0B-BA5CDA7C1B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA35B683-A53A-4EDC-88BD-841BA8F40FDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
