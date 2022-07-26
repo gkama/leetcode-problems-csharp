@@ -215,15 +215,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntersectionOfTwoLinkedList
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfOneBits", "NumberOfOneBits\NumberOfOneBits.csproj", "{EC13966B-2551-4E03-A358-30252E90DBE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementStackUsingQueues", "ImplementStackUsingQueues\ImplementStackUsingQueues.csproj", "{960A3C87-BE42-406D-B220-F137E6F3B36A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementStackUsingQueues", "ImplementStackUsingQueues\ImplementStackUsingQueues.csproj", "{960A3C87-BE42-406D-B220-F137E6F3B36A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate2", "ContainsDuplicate2\ContainsDuplicate2.csproj", "{22798269-B234-48BD-94B2-6C3F249BD7DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainsDuplicate2", "ContainsDuplicate2\ContainsDuplicate2.csproj", "{22798269-B234-48BD-94B2-6C3F249BD7DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.FindTheMode", "DailyByte.FindTheMode\DailyByte.FindTheMode.csproj", "{6FB2CDCA-7D69-4E09-B4D4-06CE5A232DF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.FindTheMode", "DailyByte.FindTheMode\DailyByte.FindTheMode.csproj", "{6FB2CDCA-7D69-4E09-B4D4-06CE5A232DF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyNumber", "HappyNumber\HappyNumber.csproj", "{54B63050-248C-4212-8B3E-80DC8140489B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyNumber", "HappyNumber\HappyNumber.csproj", "{54B63050-248C-4212-8B3E-80DC8140489B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSheetColumnNumber", "ExcelSheetColumnNumber\ExcelSheetColumnNumber.csproj", "{AF396B5F-3E32-4AAE-9A22-9EF6A5943010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelSheetColumnNumber", "ExcelSheetColumnNumber\ExcelSheetColumnNumber.csproj", "{AF396B5F-3E32-4AAE-9A22-9EF6A5943010}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsomorphicStrings", "IsomorphicStrings\IsomorphicStrings.csproj", "{C4E076B1-A0A0-438D-B56D-6FE0E8017D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeSumClosest", "ThreeSumClosest\ThreeSumClosest.csproj", "{E6A597DD-B73B-4716-B2A1-B1D0A522C828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindFirstAndLastPositionOfElementInSortedArray", "FindFirstAndLastPositionOfElementInSortedArray\FindFirstAndLastPositionOfElementInSortedArray.csproj", "{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -675,6 +681,18 @@ Global
 		{AF396B5F-3E32-4AAE-9A22-9EF6A5943010}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF396B5F-3E32-4AAE-9A22-9EF6A5943010}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF396B5F-3E32-4AAE-9A22-9EF6A5943010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E076B1-A0A0-438D-B56D-6FE0E8017D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E076B1-A0A0-438D-B56D-6FE0E8017D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E076B1-A0A0-438D-B56D-6FE0E8017D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E076B1-A0A0-438D-B56D-6FE0E8017D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A597DD-B73B-4716-B2A1-B1D0A522C828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A597DD-B73B-4716-B2A1-B1D0A522C828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A597DD-B73B-4716-B2A1-B1D0A522C828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A597DD-B73B-4716-B2A1-B1D0A522C828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE3F868-1DB2-4189-B463-08CDC2EFC97E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
