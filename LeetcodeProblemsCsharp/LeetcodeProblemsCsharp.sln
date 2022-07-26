@@ -239,6 +239,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfStepsToReduceANumbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeLinkedList", "PalindromeLinkedList\PalindromeLinkedList.csproj", "{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteNodeInALinkedList", "DeleteNodeInALinkedList\DeleteNodeInALinkedList.csproj", "{394E3CB7-FF6C-48C7-B9FC-E3C778A373D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.GatherLevels", "DailyByte.GatherLevels\DailyByte.GatherLevels.csproj", "{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -717,6 +721,14 @@ Global
 		{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C7105C2-C4CA-4DE0-BB8A-13D5D0629B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394E3CB7-FF6C-48C7-B9FC-E3C778A373D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394E3CB7-FF6C-48C7-B9FC-E3C778A373D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394E3CB7-FF6C-48C7-B9FC-E3C778A373D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394E3CB7-FF6C-48C7-B9FC-E3C778A373D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D98A93-502F-4C23-B5BE-2365CB8B7AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
