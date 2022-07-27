@@ -245,7 +245,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.GatherLevels", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MissingNumber", "MissingNumber\MissingNumber.csproj", "{FB9FFBE8-9F61-4193-88B9-1E1DF706237E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerOfThree", "PowerOfThree\PowerOfThree.csproj", "{1D4A580A-3E6A-4D69-8825-6B30D95F0604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerOfThree", "PowerOfThree\PowerOfThree.csproj", "{1D4A580A-3E6A-4D69-8825-6B30D95F0604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.MaxValueInEachLevel", "DailyByte.MaxValueInEachLevel\DailyByte.MaxValueInEachLevel.csproj", "{32968575-DF1D-4988-90DC-FAE3B105048E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -741,6 +743,10 @@ Global
 		{1D4A580A-3E6A-4D69-8825-6B30D95F0604}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D4A580A-3E6A-4D69-8825-6B30D95F0604}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D4A580A-3E6A-4D69-8825-6B30D95F0604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32968575-DF1D-4988-90DC-FAE3B105048E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32968575-DF1D-4988-90DC-FAE3B105048E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32968575-DF1D-4988-90DC-FAE3B105048E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32968575-DF1D-4988-90DC-FAE3B105048E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
