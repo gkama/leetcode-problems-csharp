@@ -249,7 +249,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerOfThree", "PowerOfThre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.MaxValueInEachLevel", "DailyByte.MaxValueInEachLevel\DailyByte.MaxValueInEachLevel.csproj", "{32968575-DF1D-4988-90DC-FAE3B105048E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.VisibleValues", "DailyByte.VisibleValues\DailyByte.VisibleValues.csproj", "{CCF05A91-382D-48F3-B285-46F0056A607D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.VisibleValues", "DailyByte.VisibleValues\DailyByte.VisibleValues.csproj", "{CCF05A91-382D-48F3-B285-46F0056A607D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.BottomsUp", "DailyByte.BottomsUp\DailyByte.BottomsUp.csproj", "{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -753,6 +755,10 @@ Global
 		{CCF05A91-382D-48F3-B285-46F0056A607D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCF05A91-382D-48F3-B285-46F0056A607D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCF05A91-382D-48F3-B285-46F0056A607D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
