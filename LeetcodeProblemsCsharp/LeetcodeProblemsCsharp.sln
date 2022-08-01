@@ -251,7 +251,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.MaxValueInEachLev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.VisibleValues", "DailyByte.VisibleValues\DailyByte.VisibleValues.csproj", "{CCF05A91-382D-48F3-B285-46F0056A607D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.BottomsUp", "DailyByte.BottomsUp\DailyByte.BottomsUp.csproj", "{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.BottomsUp", "DailyByte.BottomsUp\DailyByte.BottomsUp.csproj", "{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummaryRanges", "SummaryRanges\SummaryRanges.csproj", "{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -759,6 +761,10 @@ Global
 		{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FC42E6F-2B59-4B59-AC36-0C9042DCFC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
