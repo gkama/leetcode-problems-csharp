@@ -255,6 +255,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.BottomsUp", "Dail
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummaryRanges", "SummaryRanges\SummaryRanges.csproj", "{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerOfTwo", "PowerOfTwo\PowerOfTwo.csproj", "{FBEF40CA-66FC-4EB9-BBCC-6938BF56A881}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -765,6 +767,10 @@ Global
 		{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{270F0B9D-D924-4F19-AA3A-EE9F37F580BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEF40CA-66FC-4EB9-BBCC-6938BF56A881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEF40CA-66FC-4EB9-BBCC-6938BF56A881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEF40CA-66FC-4EB9-BBCC-6938BF56A881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEF40CA-66FC-4EB9-BBCC-6938BF56A881}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
