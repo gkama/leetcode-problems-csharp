@@ -257,7 +257,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SummaryRanges", "SummaryRan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerOfTwo", "PowerOfTwo\PowerOfTwo.csproj", "{FBEF40CA-66FC-4EB9-BBCC-6938BF56A881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.CalculateDepth", "DailyByte.CalculateDepth\DailyByte.CalculateDepth.csproj", "{B1976D0E-3B12-4B5F-9ED0-86E2FAA33895}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.CalculateDepth", "DailyByte.CalculateDepth\DailyByte.CalculateDepth.csproj", "{B1976D0E-3B12-4B5F-9ED0-86E2FAA33895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfLeftLeaves", "SumOfLeftLeaves\SumOfLeftLeaves.csproj", "{1D2862F0-602C-4159-BD77-56A76BC47440}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -777,6 +779,10 @@ Global
 		{B1976D0E-3B12-4B5F-9ED0-86E2FAA33895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1976D0E-3B12-4B5F-9ED0-86E2FAA33895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1976D0E-3B12-4B5F-9ED0-86E2FAA33895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2862F0-602C-4159-BD77-56A76BC47440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2862F0-602C-4159-BD77-56A76BC47440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2862F0-602C-4159-BD77-56A76BC47440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2862F0-602C-4159-BD77-56A76BC47440}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
