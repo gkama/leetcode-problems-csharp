@@ -261,6 +261,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.CalculateDepth", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfLeftLeaves", "SumOfLeftLeaves\SumOfLeftLeaves.csproj", "{1D2862F0-602C-4159-BD77-56A76BC47440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfRightLeaves", "SumOfRightLeaves\SumOfRightLeaves.csproj", "{8440ACB5-6879-4939-A10F-4CEAD72B41C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -783,6 +785,10 @@ Global
 		{1D2862F0-602C-4159-BD77-56A76BC47440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D2862F0-602C-4159-BD77-56A76BC47440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D2862F0-602C-4159-BD77-56A76BC47440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8440ACB5-6879-4939-A10F-4CEAD72B41C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8440ACB5-6879-4939-A10F-4CEAD72B41C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8440ACB5-6879-4939-A10F-4CEAD72B41C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8440ACB5-6879-4939-A10F-4CEAD72B41C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
