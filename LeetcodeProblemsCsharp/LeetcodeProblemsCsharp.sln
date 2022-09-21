@@ -259,9 +259,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerOfTwo", "PowerOfTwo\Po
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.CalculateDepth", "DailyByte.CalculateDepth\DailyByte.CalculateDepth.csproj", "{B1976D0E-3B12-4B5F-9ED0-86E2FAA33895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfLeftLeaves", "SumOfLeftLeaves\SumOfLeftLeaves.csproj", "{1D2862F0-602C-4159-BD77-56A76BC47440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfLeftLeaves", "SumOfLeftLeaves\SumOfLeftLeaves.csproj", "{1D2862F0-602C-4159-BD77-56A76BC47440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfRightLeaves", "SumOfRightLeaves\SumOfRightLeaves.csproj", "{8440ACB5-6879-4939-A10F-4CEAD72B41C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfRightLeaves", "SumOfRightLeaves\SumOfRightLeaves.csproj", "{8440ACB5-6879-4939-A10F-4CEAD72B41C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.DefangingIPs", "DailyByte.DefangingIPs\DailyByte.DefangingIPs.csproj", "{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -789,6 +791,10 @@ Global
 		{8440ACB5-6879-4939-A10F-4CEAD72B41C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8440ACB5-6879-4939-A10F-4CEAD72B41C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8440ACB5-6879-4939-A10F-4CEAD72B41C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
