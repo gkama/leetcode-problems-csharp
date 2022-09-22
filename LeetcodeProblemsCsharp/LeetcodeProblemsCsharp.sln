@@ -263,7 +263,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfLeftLeaves", "SumOfLef
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOfRightLeaves", "SumOfRightLeaves\SumOfRightLeaves.csproj", "{8440ACB5-6879-4939-A10F-4CEAD72B41C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.DefangingIPs", "DailyByte.DefangingIPs\DailyByte.DefangingIPs.csproj", "{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.DefangingIPs", "DailyByte.DefangingIPs\DailyByte.DefangingIPs.csproj", "{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.RemovingVowels", "DailyByte.RemovingVowels\DailyByte.RemovingVowels.csproj", "{EB483431-4F39-4B8D-B778-0A903D9FBA73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -795,6 +797,10 @@ Global
 		{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19F13ECE-E252-417C-A8C6-5F0D84DC86D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB483431-4F39-4B8D-B778-0A903D9FBA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB483431-4F39-4B8D-B778-0A903D9FBA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB483431-4F39-4B8D-B778-0A903D9FBA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB483431-4F39-4B8D-B778-0A903D9FBA73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
