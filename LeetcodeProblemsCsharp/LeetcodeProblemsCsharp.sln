@@ -267,7 +267,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.DefangingIPs", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.RemovingVowels", "DailyByte.RemovingVowels\DailyByte.RemovingVowels.csproj", "{EB483431-4F39-4B8D-B778-0A903D9FBA73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.HammingDistance", "DailyByte.HammingDistance\DailyByte.HammingDistance.csproj", "{47FECB38-C31A-4DCD-91E6-DF53FCBD1238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.HammingDistance", "DailyByte.HammingDistance\DailyByte.HammingDistance.csproj", "{47FECB38-C31A-4DCD-91E6-DF53FCBD1238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.ArrayShuffle", "DailyByte.ArrayShuffle\DailyByte.ArrayShuffle.csproj", "{7C49E360-A89C-4D63-8921-5271079727DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -807,6 +809,10 @@ Global
 		{47FECB38-C31A-4DCD-91E6-DF53FCBD1238}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47FECB38-C31A-4DCD-91E6-DF53FCBD1238}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47FECB38-C31A-4DCD-91E6-DF53FCBD1238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C49E360-A89C-4D63-8921-5271079727DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C49E360-A89C-4D63-8921-5271079727DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C49E360-A89C-4D63-8921-5271079727DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C49E360-A89C-4D63-8921-5271079727DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
