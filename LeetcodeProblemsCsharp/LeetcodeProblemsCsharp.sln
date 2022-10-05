@@ -275,9 +275,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.Averages", "Daily
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.IsMonotonic", "DailyByte.IsMonotonic\DailyByte.IsMonotonic.csproj", "{59CEB083-002D-410B-A4A6-D7582E15AC7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.NoSameNeighbors", "DailyByte.NoSameNeighbors\DailyByte.NoSameNeighbors.csproj", "{D06B8672-101E-44F9-982B-6E9E2B2329C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.NoSameNeighbors", "DailyByte.NoSameNeighbors\DailyByte.NoSameNeighbors.csproj", "{D06B8672-101E-44F9-982B-6E9E2B2329C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.ReverseNumber", "DailyByte.ReverseNumber\DailyByte.ReverseNumber.csproj", "{2CF51D68-3E96-4127-9020-DCA56B54A4DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.ReverseNumber", "DailyByte.ReverseNumber\DailyByte.ReverseNumber.csproj", "{2CF51D68-3E96-4127-9020-DCA56B54A4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.SumWithinBounds", "DailyByte.SumWithinBounds\DailyByte.SumWithinBounds.csproj", "{40E56CDB-998A-42B9-B872-E42DADC43B79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -837,6 +839,10 @@ Global
 		{2CF51D68-3E96-4127-9020-DCA56B54A4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CF51D68-3E96-4127-9020-DCA56B54A4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CF51D68-3E96-4127-9020-DCA56B54A4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E56CDB-998A-42B9-B872-E42DADC43B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E56CDB-998A-42B9-B872-E42DADC43B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E56CDB-998A-42B9-B872-E42DADC43B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E56CDB-998A-42B9-B872-E42DADC43B79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
