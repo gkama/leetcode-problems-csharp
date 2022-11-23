@@ -283,7 +283,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.SumWithinBounds",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.SwapWords", "DailyByte.SwapWords\DailyByte.SwapWords.csproj", "{1721F1D5-F0F6-44DA-8632-6316AFCFE51D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.BottomOfTheBarrel", "DailyByte.BottomOfTheBarrel\DailyByte.BottomOfTheBarrel.csproj", "{2AE3F62D-99F0-42CB-B2C3-4D6FBCDF4840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.BottomOfTheBarrel", "DailyByte.BottomOfTheBarrel\DailyByte.BottomOfTheBarrel.csproj", "{2AE3F62D-99F0-42CB-B2C3-4D6FBCDF4840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.HighFrequencyTrading", "DailyByte.HighFrequencyTrading\DailyByte.HighFrequencyTrading.csproj", "{E1729674-9475-4047-8702-1E4A1D0F3881}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -855,6 +857,10 @@ Global
 		{2AE3F62D-99F0-42CB-B2C3-4D6FBCDF4840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE3F62D-99F0-42CB-B2C3-4D6FBCDF4840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE3F62D-99F0-42CB-B2C3-4D6FBCDF4840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1729674-9475-4047-8702-1E4A1D0F3881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1729674-9475-4047-8702-1E4A1D0F3881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1729674-9475-4047-8702-1E4A1D0F3881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1729674-9475-4047-8702-1E4A1D0F3881}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
