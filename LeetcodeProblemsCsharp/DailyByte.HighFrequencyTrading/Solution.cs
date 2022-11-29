@@ -8,9 +8,9 @@
  */
 public static class Solution
 {
-    public static int HighestV1(int[] prices)
+    public static int MaximumProfitV1(int[] prices)
     {
-        var highestProfit = 0;
+        var maximumProfit = 0;
         var pricesLength = prices.Length;
 
         Recursive(0);
@@ -24,7 +24,6 @@ public static class Solution
 
             for (var i = startingIndex; i < pricesLength; i++)
             {
-                // Second array
                 for (var j = i + 1; j < pricesLength; j++)
                 {
                     var iPrice = prices[i];
@@ -37,18 +36,30 @@ public static class Solution
                         sellingIndex = j;
                     }
 
-                    if (highestProfit == 0 && sellingValue == 0 && i == pricesLength - 2 && j == pricesLength - 1) return;
+                    if (maximumProfit == 0 && sellingValue == 0 && i == pricesLength - 2 && j == pricesLength - 1) return;
                 }
             }
 
-            highestProfit += sellingValue;
+            maximumProfit += sellingValue;
 
             if (sellingValue == 0) sellingIndex += 1;
 
             Recursive(sellingIndex);
         }
 
-        return highestProfit;
+        return maximumProfit;
+    }
+
+    public static int MaximumProfitV2(int[] prices)
+    {
+        var maximumProfit = 0;
+        var pricesAndLocations = new Dictionary<int, int>();
+
+        for (var i = 0; i < prices.Length; i++) pricesAndLocations.Add(i, prices[i]);
+
+
+
+        return maximumProfit;
     }
 
     public static void Examples()
@@ -58,12 +69,13 @@ public static class Solution
             new int[] { 8, 3, 2, 4, 6, 4, 5 },
             new int[] { 8, 9, 10, 11, 12, 13, 14 },
             new int[] { 14, 13, 12, 11, 10, 9, 8 },
-            new int[] { 14, 13, 12, 11, 10, 14, 8 }
+            new int[] { 14, 13, 12, 11, 10, 14, 8 },
+            new int[] { 1, 5, 1, 5, 1, 5, 1 }
         };
 
         foreach (var ex in exs)
         {
-            Console.WriteLine($"[{string.Join(',', ex)}] -> {HighestV1(ex)}");
+            Console.WriteLine($"[{string.Join(',', ex)}] -> {MaximumProfitV1(ex)}");
         }
     }
 }
