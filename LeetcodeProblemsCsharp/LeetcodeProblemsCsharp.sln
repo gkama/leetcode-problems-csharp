@@ -291,7 +291,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddDigits", "AddDigits\AddD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.RomanNumerals", "DailyByte.RomanNumerals\DailyByte.RomanNumerals.csproj", "{CF48BD39-954C-4809-B056-A19FE0F04730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.PlusToMinus", "DailyByte.PlusToMinus\DailyByte.PlusToMinus.csproj", "{37BE5089-EC19-4EFA-9645-A1655A58A060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.PlusToMinus", "DailyByte.PlusToMinus\DailyByte.PlusToMinus.csproj", "{37BE5089-EC19-4EFA-9645-A1655A58A060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.LuckySeven", "DailyByte.LuckySeven\DailyByte.LuckySeven.csproj", "{7079DA83-F4A5-4461-BF4F-4A302B153BCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -879,6 +881,10 @@ Global
 		{37BE5089-EC19-4EFA-9645-A1655A58A060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37BE5089-EC19-4EFA-9645-A1655A58A060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37BE5089-EC19-4EFA-9645-A1655A58A060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7079DA83-F4A5-4461-BF4F-4A302B153BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7079DA83-F4A5-4461-BF4F-4A302B153BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7079DA83-F4A5-4461-BF4F-4A302B153BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7079DA83-F4A5-4461-BF4F-4A302B153BCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

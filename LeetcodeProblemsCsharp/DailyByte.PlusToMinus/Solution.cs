@@ -17,7 +17,10 @@ public static class Solution
 
         if (string.IsNullOrWhiteSpace(s)) return plusToMinusArray;
 
+        for (var i = 1; i < s.Length; i++)
+        {
 
+        }
 
         return plusToMinusArray;
     }
