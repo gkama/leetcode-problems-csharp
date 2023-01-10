@@ -23,16 +23,11 @@ public static class Solution
             // Works with queues, but it's slow
             var queue = new Queue<int>();
             queue.Enqueue(0);
-            for (var j = i + 1; j < nums.Length - 1; j++)
+            for (var j = i + 1; j < nums.Length; j++)
             {
                 queue.Enqueue(nums[j]);
-            }
-
-            // Populate array
-            for (var k = i + 1; k < nums.Length; k++)
-            {
                 var next = queue.Dequeue();
-                nums[k] = next;
+                nums[j] = next;
             }
 
             i++;
@@ -46,6 +41,7 @@ public static class Solution
         var exs = new List<int[]>
         {
             new int[] { 1, 0, 4, 0, 5, 8 },
+            new int[] { 1, 3, 4, 0, 5, 8 },
             new int[] { 1, 4, 9 }
         };
 
