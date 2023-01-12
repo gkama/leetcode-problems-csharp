@@ -299,7 +299,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HammingDistance", "HammingD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.UpsideDownNumber", "DailyByte.UpsideDownNumber\DailyByte.UpsideDownNumber.csproj", "{5187DE0F-C464-42D8-9393-E785774A7A3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.AddZeroes", "DailyByte.AddZeroes\DailyByte.AddZeroes.csproj", "{14A1ED84-61B8-4391-A5B9-DEE3728A8B69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.AddZeroes", "DailyByte.AddZeroes\DailyByte.AddZeroes.csproj", "{14A1ED84-61B8-4391-A5B9-DEE3728A8B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.FindBunches", "DailyByte.FindBunches\DailyByte.FindBunches.csproj", "{01018E73-4D20-48A3-A118-CB640AF4E3B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -903,6 +905,10 @@ Global
 		{14A1ED84-61B8-4391-A5B9-DEE3728A8B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14A1ED84-61B8-4391-A5B9-DEE3728A8B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14A1ED84-61B8-4391-A5B9-DEE3728A8B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01018E73-4D20-48A3-A118-CB640AF4E3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01018E73-4D20-48A3-A118-CB640AF4E3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01018E73-4D20-48A3-A118-CB640AF4E3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01018E73-4D20-48A3-A118-CB640AF4E3B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
