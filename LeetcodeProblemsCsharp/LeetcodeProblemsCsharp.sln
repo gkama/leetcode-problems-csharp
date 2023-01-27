@@ -303,7 +303,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.AddZeroes", "Dail
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.FindBunches", "DailyByte.FindBunches\DailyByte.FindBunches.csproj", "{01018E73-4D20-48A3-A118-CB640AF4E3B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.OneValue", "DailyByte.OneValue\DailyByte.OneValue.csproj", "{6C0E4808-EAB5-4BBF-A4F1-D76231E5559D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.OneValue", "DailyByte.OneValue\DailyByte.OneValue.csproj", "{6C0E4808-EAB5-4BBF-A4F1-D76231E5559D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.NestedParentheses", "DailyByte.NestedParentheses\DailyByte.NestedParentheses.csproj", "{C39EF292-49EF-4084-A1DE-089B78318BD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -915,6 +917,10 @@ Global
 		{6C0E4808-EAB5-4BBF-A4F1-D76231E5559D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C0E4808-EAB5-4BBF-A4F1-D76231E5559D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C0E4808-EAB5-4BBF-A4F1-D76231E5559D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39EF292-49EF-4084-A1DE-089B78318BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39EF292-49EF-4084-A1DE-089B78318BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39EF292-49EF-4084-A1DE-089B78318BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39EF292-49EF-4084-A1DE-089B78318BD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
