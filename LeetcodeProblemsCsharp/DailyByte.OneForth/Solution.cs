@@ -39,19 +39,59 @@ public static class Solution
         return oneFourthNumber;
     }
 
-    public static void Examples()
+    public static int OneFourthV2(int[] nums)
     {
-        var exs = new List<int[]>
+        if (!nums.Any()) return 0;
+
+        var numsSize = nums.Length;
+        var numsSizeOneFourth = numsSize / 4;
+        var oneFourthNumber = -1;
+        var numbers = new Dictionary<int, int>();
+
+        for (var i = 0; i < nums.Length; i++)
+        {
+            if (numbers.ContainsKey(nums[i])) numbers[nums[i]]++;
+            else numbers.Add(nums[i], 1);
+
+            if (numbers[nums[i]] > numsSizeOneFourth)
+            {
+                oneFourthNumber = nums[i];
+                break;
+            }
+        }
+
+
+        return oneFourthNumber;
+    }
+
+    private static List<int[]> DataSet()
+    {
+        return new List<int[]>
         {
             new int[] { 1, 2, 2, 3, 4 },
             new int[] { 1, 2, 3, 4 },
             new int[] { 1, 2, 3, 4, 5, 6, 7 },
             new int[] { 1, 1, 1, 1 }
         };
+    }
+
+    public static void ExamplesV1()
+    {
+        var exs = DataSet();
 
         foreach (var ex in exs)
         {
             Console.WriteLine($"[{string.Join(',', ex)}] => {OneFourthV1(ex)}");
+        }
+    }
+
+    public static void ExamplesV2()
+    {
+        var exs = DataSet();
+
+        foreach (var ex in exs)
+        {
+            Console.WriteLine($"[{string.Join(',', ex)}] => {OneFourthV2(ex)}");
         }
     }
 }

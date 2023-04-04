@@ -1,1 +1,2 @@
-﻿Solution.Examples();
+﻿Solution.ExamplesV1();
+Solution.ExamplesV2();
