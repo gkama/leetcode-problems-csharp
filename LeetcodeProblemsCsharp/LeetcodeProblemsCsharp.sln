@@ -307,7 +307,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.OneValue", "Daily
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.NestedParentheses", "DailyByte.NestedParentheses\DailyByte.NestedParentheses.csproj", "{C39EF292-49EF-4084-A1DE-089B78318BD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.BrokenKeyboard", "DailyByte.BrokenKeyboard\DailyByte.BrokenKeyboard.csproj", "{2F671BDC-063F-4BE8-8EB0-9FE9CFBB62C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.BrokenKeyboard", "DailyByte.BrokenKeyboard\DailyByte.BrokenKeyboard.csproj", "{2F671BDC-063F-4BE8-8EB0-9FE9CFBB62C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.OneFourth", "DailyByte.OneForth\DailyByte.OneFourth.csproj", "{973B507A-F23F-4DF6-876B-E1E3829D6FF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -927,6 +929,10 @@ Global
 		{2F671BDC-063F-4BE8-8EB0-9FE9CFBB62C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F671BDC-063F-4BE8-8EB0-9FE9CFBB62C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F671BDC-063F-4BE8-8EB0-9FE9CFBB62C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973B507A-F23F-4DF6-876B-E1E3829D6FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973B507A-F23F-4DF6-876B-E1E3829D6FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973B507A-F23F-4DF6-876B-E1E3829D6FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973B507A-F23F-4DF6-876B-E1E3829D6FF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
