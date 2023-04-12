@@ -28,11 +28,37 @@ public static class Solution
         return biggestSum;
     }
 
+    public static int LargestSumDivisibleByThreeV2(int[] nums)
+    {
+        var biggestSum = 0;
+
+        for (var i = 0; i < nums.Length; i++)
+        {
+            var sum = nums[i];
+
+            if (biggestSum < sum && IsDivisibleByThree(sum)) biggestSum = sum;
+
+            for (var j = i + 1; j < nums.Length; j++)
+            {
+                sum = nums[i];
+
+                for (var k = j; k < nums.Length; k++)
+                {
+                    sum += nums[k];
+
+                    if (biggestSum < sum && IsDivisibleByThree(sum)) biggestSum = sum;
+                }
+            }
+            
+        }
+
+        return biggestSum;
+    }
+
     private static bool IsDivisibleByThree(int num)
     {
         if (num < 100000) return num % 3 == 0;
 
-        // If the sum of it's digits is divisible by three
         var sumOfDigits = 0;
         foreach (var digitChar in num.ToString())
         {
@@ -48,12 +74,13 @@ public static class Solution
         var exs = new List<int[]>
         {
             new int[] { 3, 1, 5, 8, 2 },
-            new int[] { 2, 4, 9 }
+            new int[] { 2, 4, 9 },
+            new int[] { 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 }
         };
 
         foreach (var ex in exs)
         {
-            Console.WriteLine($"[{string.Join(',', ex)}] => {LargestSumDivisibleByThreeV1(ex)}");
+            Console.WriteLine($"[{string.Join(',', ex)}] => {LargestSumDivisibleByThreeV2(ex)}");
         }
     }
 }
