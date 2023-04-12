@@ -311,7 +311,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.BrokenKeyboard", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.OneFourth", "DailyByte.OneForth\DailyByte.OneFourth.csproj", "{973B507A-F23F-4DF6-876B-E1E3829D6FF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.EatingCandy", "DailyByte.EatingCandy\DailyByte.EatingCandy.csproj", "{A1B414E6-0AB6-4566-8FD1-7C47A99E7622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.EatingCandy", "DailyByte.EatingCandy\DailyByte.EatingCandy.csproj", "{A1B414E6-0AB6-4566-8FD1-7C47A99E7622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.DivisibleByThree", "DailyByte.DivisibleByThree\DailyByte.DivisibleByThree.csproj", "{31285D99-A29B-4560-93E0-176BD8501AB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -939,6 +941,10 @@ Global
 		{A1B414E6-0AB6-4566-8FD1-7C47A99E7622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B414E6-0AB6-4566-8FD1-7C47A99E7622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1B414E6-0AB6-4566-8FD1-7C47A99E7622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31285D99-A29B-4560-93E0-176BD8501AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31285D99-A29B-4560-93E0-176BD8501AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31285D99-A29B-4560-93E0-176BD8501AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31285D99-A29B-4560-93E0-176BD8501AB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
