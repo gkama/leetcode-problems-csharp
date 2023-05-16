@@ -319,7 +319,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.CreateStaircase",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.DeepestLeafSum", "DailyByte.DeepestLeafSum\DailyByte.DeepestLeafSum.csproj", "{C1DAAC57-45FA-4A94-96CF-C903B2BFC378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyByte.RemainingIntervals", "DailyByte.RemainingIntervals\DailyByte.RemainingIntervals.csproj", "{7CF1FC5E-9094-4DD5-9782-5DA64393A786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailyByte.RemainingIntervals", "DailyByte.RemainingIntervals\DailyByte.RemainingIntervals.csproj", "{7CF1FC5E-9094-4DD5-9782-5DA64393A786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UglyNumber", "UglyNumber\UglyNumber.csproj", "{1A85EEAA-79F8-4F3F-A874-801014B75A0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -963,6 +965,10 @@ Global
 		{7CF1FC5E-9094-4DD5-9782-5DA64393A786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CF1FC5E-9094-4DD5-9782-5DA64393A786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CF1FC5E-9094-4DD5-9782-5DA64393A786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A85EEAA-79F8-4F3F-A874-801014B75A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A85EEAA-79F8-4F3F-A874-801014B75A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A85EEAA-79F8-4F3F-A874-801014B75A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A85EEAA-79F8-4F3F-A874-801014B75A0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
